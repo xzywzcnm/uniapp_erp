@@ -1,0 +1,215 @@
+@account-prefix-css: ~"@{css-prefix}account";
+@import './base';
+
+.button-color(@color; @background; @border) {
+  color: @color;
+  background-color: @background;
+  border-color: @border;
+  // a inside Button which only work in Chrome
+  // http://stackoverflow.com/a/17253457
+  > a:only-child {
+      color: currentColor;
+      &:after {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          background: transparent;
+      }
+  }
+}
+
+.button-variant(@color; @background; @border) {
+    .button-color(@color; @background; @border);
+
+    &:hover
+    //&:focus
+    {
+        .button-color(tint(@color, 20%); tint(@background, 20%); tint(@border, 20%));
+    }
+    &:active,
+    &.active {
+        .button-color(shade(@color, 5%); shade(@background, 5%); shade(@background, 5%));
+    }
+
+
+}
+.phone-icon {color: #0A98D5;padding-left: 15rpx;display: inline}
+
+.@{account-prefix-css} {
+  &-header {
+    background-image: linear-gradient(to top, #469cf1 0%, #1976d2 100%);
+    width: 100%;
+    min-height: 160upx;
+    color: @white;
+    & .accountUserImg {
+      width: 100upx;
+      height: 100upx;
+      border-radius: 50%;
+      margin: 30upx;
+      border: 6upx solid #fff;
+    }
+    & .iconImg {
+      margin-top: 28upx;
+      font-size: 30upx;
+      & .iconImgTop {
+        margin-top: 10upx;
+        font-size: 26upx;
+        & .email {
+        	margin: 6upx 12upx 0 6upx;
+        	font-size: 24upx;
+        }
+        & .topPhone {
+          font-size: 32upx;
+        }
+        & .accountLen {
+          width: 350upx;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: normal;
+        }
+      }
+    }
+    & .editPasswd {
+      margin: 28upx;
+      & button {
+        font-size: 26upx;
+      }
+    }
+  }
+  &-bill {
+    background-color: @white;
+    height: 60upx;
+    font-size: 24upx;
+    & .center {
+      text-align: center;
+      width: 100%;
+    }
+  }
+  &-userMes {
+  	background-color: @white;
+    padding: 20upx;
+    & .userMesItem {
+      padding: 24upx 0;
+      font-size: 26upx;
+      position: relative;
+      & .phone {
+        position: absolute;
+        width: 60upx;
+        height: 60upx;
+        border-radius: 50%;
+        background-color: #26a69a;
+        top: 10upx;
+        right: 10upx;
+        & .icon {
+          color: #FFFFFF;
+          margin: 12upx;
+          font-size: 34upx;
+        }
+      }
+    }
+    & .appConfig {
+      padding: 24px 0 0 0;
+      font-size: 26upx;
+      & .title {
+        font-size: 32upx;
+        color: @primary;
+      }
+    }
+    & .pickingSettingList {
+      padding: 24upx 0;
+      font-size: 26upx;
+      & .title {
+        font-size: 32upx;
+        color: @primary;
+      }
+      & .seven-grid-row {
+        margin-top: 20upx;
+        & .seven-grid-col {
+          line-height: 2.2;
+        }
+      }
+      & .pslTitle {
+        line-height: 74upx;
+      }
+    }
+    & .switchWrap {
+      display: flex;
+      width: 100%;
+      & .long {
+        width: 100%;
+      }
+      & .active {
+        .button-color(shade(@primary, 5%); @primary; shade(@primary, 5%)) !important;
+        color: @white !important;
+      }
+      & .switchLeftButton {
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        background-image: none;
+        border: 1px solid transparent;
+        white-space: nowrap;
+        line-height: 1.6;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        padding: 10rpx 30rpx 12rpx;
+        font-size: 26rpx;
+        border-radius: 8rpx 0 0 8rpx;
+        -webkit-transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, -webkit-box-shadow 0.2s linear;
+        transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, -webkit-box-shadow 0.2s linear;
+        -o-transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, box-shadow 0.2s linear;
+        transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, box-shadow 0.2s linear;
+        transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, box-shadow 0.2s linear, -webkit-box-shadow 0.2s linear;
+        color: #515a6e;
+        background-color: #fff;
+        border-color: #dcdee2;
+      }
+      & .switchRightButton {
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        background-image: none;
+        border: 1px solid transparent;
+        white-space: nowrap;
+        line-height: 1.6;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        padding: 10rpx 30rpx 12rpx;
+        font-size: 26rpx;
+        border-radius: 0 8rpx 8rpx 0;
+        -webkit-transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, -webkit-box-shadow 0.2s linear;
+        transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, -webkit-box-shadow 0.2s linear;
+        -o-transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, box-shadow 0.2s linear;
+        transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, box-shadow 0.2s linear;
+        transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, box-shadow 0.2s linear, -webkit-box-shadow 0.2s linear;
+        color: #515a6e;
+        background-color: #fff;
+        border-color: #dcdee2;
+        margin-left: -2upx;
+      }
+    }
+  }
+  &-password {
+    & .saveButton {
+      padding: 20upx
+    }
+  }
+
+}

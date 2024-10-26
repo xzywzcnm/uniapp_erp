@@ -1,0 +1,1226 @@
+@workspace-prefix-css: ~"@{css-prefix}workspace";
+@import './base';
+
+.@{workspace-prefix-css} {
+  & .warehouseHeadline {
+    background-color: @white;
+    font-size: 28upx;
+    padding: 30upx 20upx;
+    & .selectWarehouse {
+      padding: 10upx 20upx;
+      border: 1px solid @border-color;
+      background-color: #f6f6f6;
+      border-radius: 8upx;
+    }
+    & .headTitle {
+      font-weight: bold;
+      line-height: 60upx;
+    }
+  }
+  & .item {
+    background-color: @white;
+    padding: 10upx 0 30upx 0;
+    & .title {
+      padding: 20upx;
+    }
+    & .itemList {
+      .itemWrap {
+        width: 120upx;
+        margin-top: 20upx;
+        padding-bottom: 10upx;
+        & .iconWrap {
+          width: 120upx;
+          height: 120upx;
+          border-radius: 46% 42% 45% 44%;
+        }
+        & .iconfont {
+          color: @white;
+          font-size: 50upx;
+        }
+        & .orange {
+          background-color: @tint-orange;
+        }
+        & .blue {
+          background-color: @tint-primary;
+        }
+        & .tintGreen {
+          background-color: @tint-green;
+        }
+        & .tintPink {
+          background-color: @tint-pink;
+        }
+        & .lidigo {
+          background-color: @lidigo;
+        }
+        & .packageAuth {
+          background-color: @green;
+        }
+        & .itemName {
+          margin-top: 12upx;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+  &-purchaseList {
+    & .wechatFilter {
+      padding: 20upx 20upx;
+    }
+    & .containerWrap {
+      width: 100vw;
+      padding-bottom: 130upx;
+      & .listWrap {
+        & .listItem:first-child {
+          margin: 0;
+        }
+        & .listItem {
+          margin: 10upx 0;
+          font-size: 26upx;
+          background-color: @white;
+          & .subList {
+            position: relative;
+            padding: 10upx 20upx;
+            color: @text-color;
+            & view {
+              padding: 4upx 0;
+            }
+            & .iconfont {
+              position: absolute;
+              right: 5%;
+              top: 40%;
+              font-size: 36upx;
+            }
+            & .purchasingStatus0 {
+              color: @orange;
+            }
+            & .purchasingStatus1 {
+              color: @green;
+            }
+            & .purchasingStatus2 {
+              color: @orange;
+            }
+          }
+        }
+        & .totalWrap {
+          background-color: @super-tint-orange;
+          border-top: 1px solid @orange;
+          position: fixed;
+          bottom: 0;
+          width: 100vw;
+          height: 130upx;
+          font-size: 30upx;
+          & .twTitle {
+            margin-top: 10upx;
+            font-size: 26upx;
+          }
+        }
+      }
+    }
+  }
+  &-purchaseDetails {
+    & .containerWrap {
+      width: 100vw;
+      padding-bottom: 130upx;
+      & .listWrap {
+        & .listItem {
+          margin: 10upx 0;
+          font-size: 26upx;
+          background-color: @white;
+          & .subList {
+            position: relative;
+            padding: 10upx 20upx;
+            color: @text-color;
+            & .loadImg {
+              width: 120upx;
+              height: 120upx;
+            }
+          }
+        }
+        & .totalWrap {
+          background-color: @white;
+          border-top: 1px solid @border-color;
+          position: fixed;
+          bottom: 0;
+          width: 100vw;
+          height: 80upx;
+          font-size: 30upx;
+          & .operateHistoryItem {
+            height: 80upx;
+            line-height: 80upx;
+            padding: 0 10upx;
+            & .redColor {
+              color: @error;
+            }
+            & .iconfont {
+              top: 4upx;
+              position: relative;
+            }
+          }
+        }
+      }
+    }
+  }
+  &-purchaseDetailsLog {
+    & .containerWrap {
+      width: 100vw;
+      padding-bottom: 130upx;
+      & .listWrap {
+        & .listItem {
+          font-size: 26upx;
+          padding: 20upx 0;
+          background-color: @white;
+          border-bottom: 1px solid rgba(0, 0, 0, .12);
+          & .subList {
+            padding: 0 20upx;
+            color: @text-color;
+            & .itemStatus {
+              color: @orange;
+            }
+          }
+        }
+      }
+    }
+  }
+  &-inventorQuery {
+    & .warehouseHeadline {
+      background-color: @white;
+      font-size: 28upx;
+      padding: 30upx 20upx;
+      & .selectWarehouse {
+        padding: 10upx 20upx;
+        border: 1px solid @border-color;
+        background-color: #f6f6f6;
+        border-radius: 8upx;
+      }
+      & .headTitle {
+        font-weight: bold;
+        line-height: 60upx;
+      }
+    }
+    & .controlLine {
+      background-color: @white;
+      padding: 20upx;
+    }
+    & .scanWrap {
+      padding: 30upx 20upx;
+      background-color: @white;
+      & .scan {
+        color: @primary;
+        width: 90upx;
+        text-align: center;
+        & .scanIcon {
+          font-size: 60upx;
+        }
+        & .scanText {
+          font-size: 24upx;
+        }
+      }
+
+      & .selectType {
+        border: 1px solid @border-color;
+        border-radius: 8upx;
+        height: 80upx;
+        margin-left: 20upx;
+        width: 200upx;
+        & .icon {
+          margin: 30upx;
+          font-size: 20upx
+        }
+      }
+      & .scanInput {
+        border: 1px solid @border-color;
+        margin-left: 20upx;
+      }
+    }
+    & .errorSquare {
+      background-color: @error;
+      color: @white;
+    }
+    & .bottomBit {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      background-color: @white;
+      border-top: 1px solid @border-color;
+      z-index: 999;
+      & button {
+        width: 100%;
+        margin: 20upx;
+        background-color: @primary;
+      }
+    }
+    & .productContainer {
+      background-color: @white;
+      font-size: 28upx;
+      margin-top: 20upx;
+      margin-bottom: 110upx;
+      padding: 20upx 0;
+      & .product-text {
+        padding: 12upx 24upx;
+        & text {
+          margin-left: 20upx
+        }
+      }
+      & .enbaleWarehouseList {
+        padding: 20upx 20upx 100upx 20upx;
+        & .enableWarehouseItem:nth-child(odd) {
+           background-color: #f6f6f6;
+         }
+        & .enableWarehouseItem {
+          & .warehouseStorage {
+            padding: 20upx;
+          }
+          & .warehouseEnableStorage {
+            padding: 0 20upx;
+          }
+          & .mu-divider {
+            margin-top: 20upx;
+          }
+        }
+      }
+    }
+  }
+  &-pickingList {
+    & .wechatFilter {
+      padding: 20upx 20upx;
+    }
+    & .warehouseHeadline {
+      font-size: 28upx;
+      padding: 30upx 20upx;
+      & .selectWarehouse {
+        padding: 10upx 20upx;
+        border: 1px solid @border-color;
+        background-color: #f6f6f6;
+        border-radius: 8upx;
+      }
+      & .headTitle {
+        font-weight: bold;
+        line-height: 60upx;
+      }
+    }
+    & .pickinglistWrap {
+      .mu-tab {
+        width: 50%;
+      }
+      & .pickinglist {
+        & .pickingItem {
+          margin-bottom: 20upx;
+          width: 100%;
+          & .pickingHead {
+            font-size: 28upx;
+            padding: 20upx;
+            background-color: @white;
+            & .phTitle {
+              font-weight: bold;
+            }
+            & .phStatus {
+              color: @orange;
+            }
+          }
+          & .pickingItemContent {
+            background-color: @white;
+            font-size: 24upx;
+            padding: 10upx 0;
+            position: relative;
+            & .pItem {
+              padding: 5upx 20upx;
+              & .jg {
+                margin: 0 20upx;
+              }
+            }
+            & .goToPicking {
+              position: absolute;
+              right: 20upx;
+              top: 30%;
+              z-index: 1;
+              font-size: 30upx;
+              color: @primary;
+              background-color: rgba(255,255,255,0.6);
+              & .iconfont {
+                font-size: 50upx;
+                position: relative;
+                bottom: -8upx;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &-scanPackage {
+    & .scanWrap {
+      padding: 30upx 20upx;
+      background-color: @white;
+      & .scan {
+        color: @primary;
+        width: 80upx;
+        text-align: center;
+        & .scanIcon {
+          font-size: 60upx;
+        }
+        & .scanText {
+          font-size: 24upx;
+        }
+      }
+      & .selectType {
+        border: 1px solid @border-color;
+        border-radius: 8upx;
+        height: 80upx;
+        margin-left: 20upx;
+        & .material-icons {
+          margin: 14upx;
+        }
+      }
+      & .scanInput {
+        border: 1px solid @border-color;
+        margin-left: 20upx;
+      }
+    }
+    & .errorText {
+      background-color: @error;
+      color: @white;
+      font-size: 30upx;
+    }
+    & .rules {
+      font-size: 28upx;
+      color: @error;
+    }
+    & .baseketList {
+      white-space: normal;
+      word-break: break-all;
+
+    }
+    & .basketContent {
+      font-size: 28upx;
+      color: @text-color;
+      & .redColor {
+        color: @error;
+      }
+    }
+    & .bottomBit {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      background-color: @white;
+      border-top: 1px solid @border-color;
+      z-index: 999;
+      & button {
+        width: 100%;
+        margin: 20upx;
+        background-color: @primary;
+      }
+    }
+  }
+  &-pickingDetails {
+    & .scanWrap {
+      padding: 30upx 20upx;
+      background-color: @white;
+      & .scan {
+        color: @primary;
+        width: 80upx;
+        text-align: center;
+        & .scanIcon {
+          font-size: 60upx;
+        }
+        & .scanText {
+          font-size: 24upx;
+        }
+      }
+      & .selectType {
+        border: 1px solid @border-color;
+        border-radius: 8upx;
+        height: 80upx;
+        margin-left: 20upx;
+        & .material-icons {
+          margin: 14upx;
+        }
+      }
+      & .scanInput {
+        border: 1px solid @border-color;
+        margin-left: 20upx;
+      }
+      & .headEndLine {
+        font-size: 24upx;
+        color: @primary;
+        margin-top: 10upx;
+      }
+    }
+    & .listContent {
+      background-color: @white;
+      font-size: 26upx;
+      padding-bottom: 100upx;
+      & .listItem {
+        position: relative;
+        padding: 20upx;
+        border-bottom: 1px solid @border-color;
+        & .item {
+          margin-top: 10upx;
+          & text {
+            margin-left: 10upx;
+          }
+        }
+      }
+      & .alreadyPicking {
+        position: absolute;
+        right: .5rem;
+        top: 40%;
+        z-index: 1;
+        color: @green;
+        & .icon {
+          color: @primary;
+        }
+      }
+    }
+    & .bottomBit {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      border-top: 1px solid @border-color;
+      background-color: @white;
+      z-index: 999;
+      & .col {
+        padding: 10upx 0;
+      }
+      & button {
+        width: 90%;
+      }
+      & .yellow {
+        background-color: @yellow;
+        color: @white;
+      }
+      & .primary {
+        background-color: @primary;
+        color: @white;
+      }
+    }
+  }
+  &-productPickingDetails {
+    & .headTitle {
+      font-size: 32upx;
+      & text {
+        & text {
+          margin-right: 10upx;
+          color: @text-color;
+        }
+      }
+    }
+    & .skuName {
+      font-size: 24upx;
+      line-height: 46upx;
+      & .skuNameItem {
+        flex: .9;
+        & text {
+          word-break: break-all;
+          white-space: normal;
+        }
+      }
+
+    }
+    & .cargospaceWrap {
+      font-size: 24upx;
+      & .cargospaceTitle {
+        line-height: 50upx;
+      }
+      & .scanCargospace {
+        margin-top: 20upx;
+      }
+    }
+    & .scanWrap {
+      padding: 30upx 20upx;
+      background-color: @white;
+      & .switch {
+        margin-bottom: 20upx;
+      }
+      & .scan {
+        color: @primary;
+        width: 80upx;
+        text-align: center;
+        & .scanIcon {
+          font-size: 60upx;
+        }
+        & .scanText {
+          font-size: 24upx;
+        }
+      }
+      & .selectType {
+        border: 1px solid @border-color;
+        border-radius: 8upx;
+        height: 80upx;
+        margin-left: 20upx;
+        & .material-icons {
+          margin: 14upx;
+        }
+      }
+      & .scanInput {
+        border: 1px solid @border-color;
+        margin-left: 20upx;
+      }
+    }
+    & .pickingStatus {
+      font-size: 30upx;
+      & text {
+        color: @orange;
+      }
+    }
+    & .modeStatus button {
+      background-color: @primary;
+    }
+    & .picArea {
+      padding-bottom: 100upx;
+    }
+    & .bottomBit {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      border-top: 1px solid @border-color;
+      background-color: @white;
+      z-index: 9999;
+      & .col {
+        padding: 10upx 0;
+      }
+      & button {
+        width: 90%;
+      }
+      & .yellow {
+        background-color: @yellow;
+        color: @white;
+      }
+      & .primary {
+        background-color: @primary;
+        color: @white;
+      }
+    }
+  }
+  &-cargoSpaceTransfer {
+    & .warehouseHeadline {
+      font-size: 28upx;
+      padding: 30upx 20upx;
+      background-color: @white;
+      & .selectWarehouse {
+        padding: 10upx 20upx;
+        border: 1px solid @border-color;
+        background-color: #f6f6f6;
+        border-radius: 8upx;
+      }
+      & .headTitle {
+        font-weight: bold;
+        line-height: 60upx;
+      }
+    }
+    & .scanWrap {
+      padding: 30upx 20upx;
+      background-color: @white;
+      & .scan {
+        color: @primary;
+        width: 80upx;
+        text-align: center;
+        flex-shrink: 0;
+        & .scanIcon {
+          font-size: 60upx;
+        }
+        & .scanText {
+          font-size: 24upx;
+        }
+      }
+      & .selectType {
+        border: 1px solid @border-color;
+        border-radius: 8upx;
+        height: 80upx;
+        margin-left: 20upx;
+        & .material-icons {
+          margin: 14upx;
+        }
+      }
+      & .scanInput {
+        border: 1px solid @border-color;
+        margin-left: 20upx;
+      }
+      & .scanInputTwo {
+        border: 1px solid @border-color;
+      }
+      & .jg {
+        text-align: center;
+        line-height: 2.1
+      }
+      & .headEndLine {
+        font-size: 30upx;
+        padding: 40upx 24upx;
+        & .changeNum {
+          border: 1px solid @border-color;
+          margin-left: 20upx;
+          min-width:  70upx;
+          flex-shrink: 1;
+          flex: .4;
+        }
+        & view {
+          margin-right: 80upx;
+          & .originCargoSpace {
+            color: @text-color;
+            padding-left: 10upx;
+          }
+        }
+      }
+    }
+    & .errorText {
+      background-color: @error;
+      color: @white;
+      font-size: 30upx;
+    }
+    & .pickingListCode {
+      font-size: 38upx;
+    }
+    & .supplierName {
+      font-size: 26upx;
+    }
+    & .controlLine {
+      background-color: @white;
+      padding: 20upx;
+    }
+    & .skuDetails {
+      font-size: 24upx;
+      & view {
+        margin-top: 20upx
+      }
+
+    }
+    & .inWarehouseList {
+      background-color: @white;
+      width: 100%;
+      padding-bottom: 100upx;
+      & .otherCargospaceMes {
+        font-size: 28upx;
+        padding: 10upx;
+      }
+      & .inWarehouseItem {
+        padding: 10upx 20upx;
+        font-size: 26upx;
+      }
+      & .inWarehouseItem:nth-child(even) {
+        background-color: #f6f6f6;
+      }
+    }
+    & .bottomBit {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      background-color: @white;
+      border-top: 1px solid @border-color;
+      z-index: 999;
+      & button {
+        width: 100%;
+        margin: 20upx;
+        background-color: @primary;
+      }
+    }
+  }
+  &-inventorQueryVerification {
+    & .wechatFilter {
+      padding: 20upx 20upx;
+      & .wechatSort {
+        margin-right: 20upx
+      }
+    }
+    & .headSearch {
+      & button {
+        background-color: @primary;
+        height:80upx;
+        line-height:80upx;
+        margin-top:20upx;
+        color: @white;
+      }
+    }
+    & .warehouseHeadline {
+      background-color: @white;
+      font-size: 28upx;
+      padding: 30upx 20upx;
+      & .selectWarehouse {
+        padding: 10upx 20upx;
+        border: 1px solid @border-color;
+        background-color: #f6f6f6;
+        border-radius: 8upx;
+      }
+      & .headTitle {
+        font-weight: bold;
+        line-height: 60upx;
+      }
+    }
+    & .scanWrap {
+      padding: 30upx 20upx;
+      background-color: @white;
+      & .scan {
+        color: @primary;
+        width: 80upx;
+        text-align: center;
+        & .scanIcon {
+          font-size: 60upx;
+        }
+        & .scanText {
+          font-size: 24upx;
+        }
+      }
+      & .selectType {
+        border: 1px solid @border-color;
+        border-radius: 8upx;
+        height: 80upx;
+        margin-left: 20upx;
+        & .iconfont {
+          margin: 14upx;
+        }
+      }
+      & .scanInput {
+        border: 1px solid @border-color;
+        margin-left: 20upx;
+      }
+    }
+    & .containerWrap {
+      width: 100vw;
+      padding-bottom: 130upx;
+      & .listWrap {
+        & .listItem:first-child {
+          margin: 0;
+        }
+        & .listItem {
+          margin: 10upx 0;
+          font-size: 26upx;
+          background-color: @white;
+          & .subList {
+            position: relative;
+            padding: 10upx 20upx;
+            color: @text-color;
+            & .positionView {
+              position: absolute;
+              right: 3%;
+              top: 30%;
+              font-size: 56upx;
+            }
+          }
+        }
+      }
+    }
+     & .bottomBit {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      border-top: 1px solid @border-color;
+      background-color: @white;
+      z-index: 999;
+      & .col {
+        padding: 10upx 0;
+      }
+      & button {
+        width: 90%;
+      }
+      & .yellow {
+        background-color: @yellow;
+        color: @white;
+        & .iconfont {
+          position: relative;
+          top: 4upx;
+          line-height: 0;
+          font-size: 34upx;
+          margin-right: 10upx;
+        }
+      }
+      & .primary {
+        background-color: @primary;
+        color: @white;
+        & .iconfont {
+          position: relative;
+          top: 4upx;
+          line-height: 0;
+          font-size: 34upx;
+          margin-right: 10upx;
+        }
+      }
+    }
+  }
+
+  &-purchaseRandomResult {
+    .mu-tab {
+      width: 50%;
+    }
+    & .skuItem {
+      background-color: @white;
+      font-size: 28upx;
+    }
+    & .bottomBit {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      border-top: 1px solid @border-color;
+      background-color: @white;
+      z-index: 999;
+      & .col {
+        padding: 10upx 0;
+      }
+      & button {
+        width: 90%;
+      }
+      & .green {
+        background-color: @green;
+        color: @white;
+      }
+      & .primary {
+        background-color: @primary;
+        color: @white;
+      }
+    }
+  }
+  &-inventoryVerificationDetails {
+    &-randomResult {
+      content: '';
+      & .bgCur {
+        background-color: @tint-primary !important;
+      }
+    }
+    & .headLine {
+      background-color: @white;
+      font-size: 28upx;
+    }
+    & .scanWrap {
+      padding: 30upx 20upx;
+      & .model {
+        width: 230upx;
+        padding: 0 20upx;
+      }
+      & .scan {
+        color: @primary;
+        width: 80upx;
+        text-align: center;
+        & .scanIcon {
+          font-size: 60upx;
+        }
+        & .scanText {
+          font-size: 24upx;
+        }
+      }
+      & .selectType {
+        border: 1px solid @border-color;
+        border-radius: 8upx;
+        height: 80upx;
+        margin-left: 20upx;
+        & .material-icons {
+          margin: 14upx;
+        }
+      }
+      & .scanInput {
+        border: 1px solid @border-color;
+        margin-left: 20upx;
+      }
+      & .scanInputTwo {
+        border: 1px solid @border-color;
+      }
+      & .jg {
+        text-align: center;
+        line-height: 2.1
+      }
+    }
+    & .containerWrap {
+      width: 100vw;
+      padding-bottom: 130upx;
+      & .listWrap {
+        & .listItem:first-child {
+          margin: 0;
+        }
+        & .listItem {
+          position: relative;
+          border-bottom: 1px solid @border-color;
+          margin: 10upx 0;
+          font-size: 26upx;
+          background-color: @white;
+          & .changeNum {
+            border: 1px solid @border-color;
+            margin-left: 20upx;
+            min-width:  70upx;
+            max-width: 240upx;
+          }
+          & .row {
+            margin-top: 10upx;
+          }
+          & .arrow {
+            position: absolute;
+            right: .5rem;
+            top: 30%;
+            z-index: 1;
+            font-size: 60upx;
+          }
+        }
+      }
+    }
+    & .bottomBit {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      background-color: @white;
+      border-top: 1px solid @border-color;
+      z-index: 999;
+      & button {
+        width: 100%;
+        margin: 20upx;
+        background-color: @primary;
+        & .icon {
+          font-size: 30upx;
+          line-height: 1.1;
+          position:relative;
+          margin-right: 10upx;
+          top:1px;
+        }
+      }
+      & .yellow {
+        background-color: @yellow;
+        color: @white;
+      }
+    }
+  }
+  &-inventoryDetails {
+    & .mu-tab {
+      width: 50%;
+    }
+    & .skuDetails {
+      font-size: 36upx;
+    }
+  }
+  &-checkPurchaseOrder {
+    & .scanWrap {
+      margin-top: 30upx;
+      & .scan {
+        color: @primary;
+        width: 90upx;
+        text-align: center;
+        & .scanIcon {
+          font-size: 60upx;
+        }
+        & .scanText {
+          font-size: 24upx;
+        }
+      }
+    }
+
+    & .bottomBit {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      background-color: @white;
+      border-top: 1px solid @border-color;
+      z-index: 999;
+      & button {
+        width: 100%;
+        margin: 20upx;
+        background-color: @primary;
+        & .icon {
+          font-size: 30upx;
+          line-height: 1.1;
+          position:relative;
+          margin-right: 10upx;
+          top:1px;
+        }
+      }
+      & .green {
+        background-color: @green;
+        color: @white;
+      }
+    }
+  }
+  &-randomList {
+    & .headLine {
+      background-color: @white;
+      font-size: 28upx;
+    }
+    & .containerWrap {
+      width: 100vw;
+      padding-bottom: 130upx;
+      & .listWrap {
+        & .listItem:first-child {
+          margin: 0;
+        }
+        & .listItem {
+          position: relative;
+          border-bottom: 1px solid @border-color;
+          margin: 10upx 0;
+          font-size: 26upx;
+          background-color: @white;
+          & .row {
+            margin-top: 10upx;
+          }
+          & .arrow {
+            position: absolute;
+            right: .5rem;
+            top: 30%;
+            z-index: 1;
+            font-size: 60upx;
+          }
+        }
+      }
+    }
+    & .bottomBit {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      background-color: @white;
+      border-top: 1px solid @border-color;
+      z-index: 999;
+      & button {
+        width: 100%;
+        margin: 20upx;
+        background-color: @primary;
+        & .icon {
+          font-size: 30upx;
+          line-height: 1.1;
+          position:relative;
+          margin-right: 10upx;
+          top:1px;
+        }
+      }
+      & .green {
+        background-color: @green;
+        color: @white;
+      }
+      & .yellow {
+        background-color: @yellow;
+        color: @white;
+      }
+    }
+  }
+  &-selectStorage {
+    & .listItem {
+      font-size: 28upx;
+      background-color: @white;
+      & .item {
+        padding: 20upx;
+        & .leftItem {
+          & .keepPicking {
+            margin-top: 20upx;
+            & view {
+              margin-right: 40upx;
+            }
+          }
+        }
+
+      }
+      & .mu-divider {
+        margin: 20upx 0;
+      }
+    }
+  }
+  &-packageVerify {
+    & .errorText {
+      margin: 0 10upx;
+      color: @error;
+    }
+    & .successText {
+      margin: 0 10upx;
+      color: @green;
+    }
+    & .scanWrap {
+      padding: 30upx 20upx;
+      background-color: @white;
+      & .scan {
+        color: @primary;
+        width: 80upx;
+        text-align: center;
+        flex-shrink: 0;
+        & .scanIcon {
+          font-size: 60upx;
+        }
+        & .scanText {
+          font-size: 24upx;
+        }
+      }
+      & .selectType {
+        border: 1px solid @border-color;
+        border-radius: 8upx;
+        height: 80upx;
+        margin-left: 20upx;
+        & .material-icons {
+          margin: 14upx;
+        }
+      }
+      & .scanInput {
+        border: 1px solid @border-color;
+        margin-left: 20upx;
+      }
+      & .scanInputTwo {
+        border: 1px solid @border-color;
+      }
+      & .jg {
+        text-align: center;
+        line-height: 2.1
+      }
+      & .headEndLine {
+        font-size: 30upx;
+        padding: 40upx 24upx;
+        & .changeNum {
+          border: 1px solid @border-color;
+          margin-left: 20upx;
+          min-width:  70upx;
+          flex-shrink: 1;
+          flex: .4;
+        }
+        & view {
+          margin-right: 80upx;
+          & .originCargoSpace {
+            color: @text-color;
+            padding-left: 10upx;
+          }
+        }
+      }
+    }
+    & .packageList {
+      border-top: 20rpx solid #f6f6f6;
+      padding-bottom: 100upx;
+      & .packageItem {
+        padding: 10upx 20upx;
+        background-color: @white;
+        border-bottom: 10upx solid #f6f6f6;
+        & .imgItem {
+          width: 80%;
+          max-height: 400upx;
+          overflow: hidden;
+          & image {
+            width: 100%;
+          }
+        }
+        & .item {
+          margin: 20upx 0;
+          font-size: 26upx;
+          & .itemTitle {
+            white-space: nowrap;
+            font-weight: 700;
+          }
+          & .scanNumInput {
+            border: 1px solid #e1e1e1;
+            margin-left: 10upx;
+            width: 200upx;
+          }
+          & .checkboxItem {
+            margin-left: 20upx;
+          }
+        }
+      }
+    }
+    & .bottomBit {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      background-color: @white;
+      border-top: 1px solid @border-color;
+      z-index: 999;
+      & button {
+        width: 100%;
+        margin: 20upx;
+        background-color: @primary;
+      }
+    }
+  }
+}

@@ -1,0 +1,457 @@
+@newWorkspace-prefix-css: ~"@{css-prefix}newWorkspace";
+@import './base';
+
+.@{newWorkspace-prefix-css} {
+  &-goodsAllocation {
+    & .scanWrap {
+      padding: 30upx 20upx;
+      background-color: @white;
+      height: 88upx;
+      & .scan {
+        color: @primary;
+        width: 80upx;
+        text-align: center;
+        & .scanIcon {
+          font-size: 60upx;
+        }
+        & .scanText {
+          font-size: 24upx;
+        }
+      }
+      & .selectType {
+        border: 1px solid @border-color;
+        border-radius: 8upx;
+        height: 80upx;
+        margin-left: 20upx;
+        & .material-icons {
+          margin: 14upx;
+        }
+      }
+      & .scanInput {
+        border: 1px solid @border-color;
+        margin-left: 20upx;
+      }
+    }
+  }
+  &-newReceiving {
+    & .scanWrap {
+      padding: 30upx 20upx;
+      background-color: @white;
+      height: 88upx;
+      & .scan {
+        color: @primary;
+        width: 80upx;
+        text-align: center;
+        & .scanIcon {
+          font-size: 60upx;
+        }
+        & .scanText {
+          font-size: 24upx;
+        }
+      }
+      & .selectType {
+        border: 1px solid @border-color;
+        border-radius: 8upx;
+        height: 80upx;
+        margin-left: 20upx;
+        & .material-icons {
+          margin: 14upx;
+        }
+      }
+      & .scanInput {
+        border: 1px solid @border-color;
+        margin-left: 20upx;
+      }
+    }
+    & .head {
+      background-color: @white;
+      height: 100upx;
+      & .purchasingAndStorage {
+        & .pasTitle {
+          margin-right: 20upx;
+        }
+        & .uni-tag {
+          margin-right: 10upx;
+        }
+      }
+    }
+    & .scanSkuLine {
+      background-color: @white;
+      height: 126upx;
+      & .scanInput {
+        border: 1px solid @border-color;
+        width: 400upx;
+      }
+      & .model {
+        width: 230upx;
+        padding: 0 20upx;
+      }
+    }
+    & .goodsList {
+      background-color: @white;
+      & .receivingItem {
+        padding: 20upx;
+        font-size: 26upx;
+        & .leftItem {
+          width: 60%;
+          & .leftText {
+            word-break: break-all;
+          }
+          & .leftTitle {
+            width: 200upx;
+            flex-shrink: 0;
+          }
+          & .d-flex {
+            margin-top: 10upx;
+          }
+        }
+        & .rightItem {
+          & .thisReceivingNum {
+            margin-bottom: 20upx;
+            color: @green;
+          }
+          & .receivingNum {
+            border: 1px solid @border-color;
+            background-color: @white;
+            width: 180upx;
+            padding: 10upx 20upx;
+          }
+        }
+      }
+      // height: 400upx;
+    }
+    & .bottomBit {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      z-index: 999;
+      background-color: @white;
+      border-top: 1px solid @border-color;
+      height: 286upx;
+      & .doubBit .bottomButton {
+        margin: 0 5upx;
+        width: 100%
+      }
+      & .selectGoodsWarehouse {
+        padding: 20upx;
+        & .inputWrap {
+          width: 340upx;
+          & .scanInput {
+            border: 1px solid @border-color;
+          }
+        }
+      }
+      & .selectType {
+        padding: 0 20upx;
+      }
+    }
+  }
+  &-qualityTestingList {
+    & .scanWrap {
+      padding: 30upx 20upx;
+      background-color: @white;
+      height: 88upx;
+      & .scan {
+        color: @primary;
+        width: 80upx;
+        text-align: center;
+        & .scanIcon {
+          font-size: 60upx;
+        }
+        & .scanText {
+          font-size: 24upx;
+        }
+      }
+      & .selectType {
+        border: 1px solid @border-color;
+        border-radius: 8upx;
+        height: 80upx;
+        margin-left: 20upx;
+        & .material-icons {
+          margin: 14upx;
+        }
+      }
+      & .scanInput {
+        border: 1px solid @border-color;
+        margin-left: 20upx;
+      }
+    }
+    & .filter {
+      background-color: @white;
+    }
+    & .qualityList {
+      font-size: 28upx;
+      background-color: @white;
+      padding-bottom: 190upx;
+      & .qulityTitle {
+        background-color: @gray;
+        padding: 10upx 20upx;
+        font-size: 34upx;
+      }
+      & .bottomBit {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        z-index: 999;
+        background-color: @white;
+        border-top: 1px solid @border-color;
+      }
+      & .qulityItemList {
+        & .qulityItem {
+          padding: 20upx;
+          border-bottom: 1upx solid #e1e1e1;
+          & .rightItem {
+            margin-left: 20upx;
+            flex-grow: 1;
+            & .smallItem {
+              margin-top: 10upx;
+              & .greenColor {
+                color: @green;
+              }
+              .uni-input {
+                background-color: @white;
+                border: 1px solid @border-color;
+                width: 80upx;
+                height: 40upx;
+                padding: 0 10upx;
+                margin-left: 10upx;
+                flex: .8
+              }
+            }
+
+          }
+        }
+      }
+    }
+    & .bottomBit {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      z-index: 999;
+      background-color: @white;
+      border-top: 1px solid @border-color;
+      & .doubBit .seven-btn {
+        margin: 0 5upx;
+      }
+    }
+  }
+  &-qualityTestingDetails {
+    & .swiperWrap {
+      height: 320upx;
+      background-color: @white;
+      position: relative;
+
+    }
+    & .scrollContainer {
+      & .wrapItem {
+        background-color: @white;
+        border-radius: 8upx;
+        margin: 26upx;
+        font-size: 28upx;
+        padding: 20upx;
+        & .item {
+          margin-bottom: 20upx;
+        }
+        & .wrapTitle {
+          padding-bottom: 20upx;
+        }
+        & .mu-divider {
+          margin-bottom: 20upx;
+        }
+        & .wrapContainer .d-flex {
+          margin-top: 10upx;
+        }
+        & .itemTitle {
+          font-weight: bold;
+          font-size: 30upx;
+        }
+        & image, & .uploadButton {
+          margin: 10upx;
+        }
+        & .uploadButton {
+          background-color: #f7f7f7;
+          width: 160upx;
+          height: 160upx;
+        }
+      }
+    }
+    & .bottomBit {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      z-index: 999;
+      background-color: @primary;
+      border-top: 1px solid @white;
+      height: 340upx;
+      color: @white;
+      & .buttonWrap {
+        background-color: @white;
+        & .smallUploadButton {
+          margin: 10upx 20upx;
+        }
+
+      }
+      & .numInputWrap {
+        & .smallNumInput {
+           color: @text-color !important;
+        }
+
+        & .text {
+          flex-shrink: 0;
+        }
+        & .smallNumInput {
+          width: 150upx;
+          background-color: @white;
+          border: 1px solid @border-color;
+          height: 50upx;
+          flex-shrink: 0;
+        }
+      }
+
+      & .bottomWrap {
+        padding: 20upx;
+        font-size: 32upx;
+      }
+    }
+  }
+  &-putaway {
+    background-color: @white;
+    & .scanWrap {
+      padding: 30upx 20upx;
+      background-color: @white;
+      & .scan {
+        color: @primary;
+        width: 80upx;
+        text-align: center;
+        & .scanIcon {
+          font-size: 60upx;
+        }
+        & .scanText {
+          font-size: 24upx;
+        }
+      }
+      & .selectType {
+        border: 1px solid @border-color;
+        border-radius: 8upx;
+        height: 80upx;
+        margin-left: 20upx;
+        & .material-icons {
+          margin: 14upx;
+        }
+      }
+      & .scanInput {
+        border: 1px solid @border-color;
+        margin-left: 20upx;
+      }
+      & .scanInputTwo {
+        border: 1px solid @border-color;
+      }
+      & .jg {
+        text-align: center;
+        line-height: 2.1
+      }
+      & .headEndLine {
+        font-size: 30upx;
+        padding: 40upx 24upx;
+        & view {
+          margin-right: 80upx;
+          & .originCargoSpace {
+            color: @text-color;
+            padding-left: 10upx;
+          }
+        }
+      }
+    }
+    & .errorText {
+      background-color: @error;
+      color: @white;
+      font-size: 30upx;
+    }
+    & .pickingListCode {
+      font-size: 38upx;
+    }
+    & .supplierName {
+      font-size: 26upx;
+    }
+    & .controlLine {
+      background-color: @white;
+      padding: 20upx;
+      & text {
+        font-size: 30upx;
+        margin-right: 20upx;
+      }
+    }
+    & .skuDetails {
+      font-size: 24upx;
+      & view {
+        margin-top: 20upx
+      }
+    }
+    & .subTitle {
+      font-size: 28upx;
+      font-weight: bold;
+      padding: 10upx 20upx;
+      //margin-top: 20upx;
+      & .square {
+        width: 6upx;
+        height: 24upx;
+        margin-right: 24upx;
+        background-color: @primary;
+      }
+    }
+    & .subContainer {
+      font-size: 28upx;
+      padding: 10upx 40upx 460upx 40upx;
+      & .subMarginTop {
+        margin-top: 10upx;
+      }
+      & .circle {
+        background-color: @green;
+        color: @white;
+        border-radius: 50%;
+        width: 50upx;
+        height: 50upx;
+      }
+      & .redBgColor  {
+        background-color: @error !important;
+      }
+    }
+    & .storageLocation {
+      padding: 10upx 40upx 10upx 40upx;
+      & .slItem {
+        text-align: center;
+        margin-top: 20upx;
+        margin-right: 30upx;
+        & text {
+          font-size: 26upx;
+          display: block;
+        }
+      }
+    }
+    & .bottomBit {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      z-index: 999;
+      background-color: @white;
+      border-top: 1px solid @border-color;
+    }
+  }
+}
+
+.halfButtonBit {
+  margin: 0 5px;
+  width: 100%;
+  font-size: 24upx;
+}
+
+.fullButton {
+  margin: 0 5px;
+  width: 100%;
+  font-size: 24upx;
+}

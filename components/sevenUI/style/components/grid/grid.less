@@ -1,0 +1,41 @@
+@import '../../custom';
+@grid-prefix-cls: ~"@{css-prefix}grid";
+
+.@{grid-prefix-cls} {
+  &-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -16upx;
+    margin-left: -16upx;
+    &-no-gutter {
+      margin-right: 0;
+      margin-left: 0;
+    }
+    &-gutter {
+      margin-right: 24upx;
+      margin-left: 24upx;
+    }
+  }
+  &-col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    .loop(13)
+  }
+}
+
+.loop( @n, @i: 0 )when( @i < @n ) {
+  &-@{i} {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    -webkit-box-flex: 0;
+    flex: 0 0 (100 / 12 * @i) * 1%;
+    -ms-flex: 0 0 (100 / 12 * @i) * 1%;
+    max-width: (100 / 12 * @i) * 1%;
+  }
+  .loop(@n, (@i + 1));
+}

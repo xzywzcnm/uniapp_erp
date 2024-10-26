@@ -1,0 +1,106 @@
+<template>
+	<view class="privacyWrap">
+		<view class="d-flex justify-content-center align-items-center logoImg">
+      <image src="../../static/logo.png"  style="width: 100px; height: 100px;" mode=""></image>
+    </view>
+    <view class="d-flex justify-content-center align-items-center grayFont">
+      欢迎使用
+    </view>
+    <view class="d-flex justify-content-center align-items-center title">
+      掌上LAPA
+    </view>
+    <view class="scrollWrap">
+      <scroll-view class="scroll-view_H" scroll-x="true" @scroll="scroll" scroll-left="120">
+        <text class="text-18">私隐政策</text>
+        <view class="text-16 normal-margin-top">掌上LAPA重视用户的隐私。您在使用我们的服务时，我们可能会收集和使用您的相关信息。我们希望通过本《隐私政策》向您说明，在使用我们的服务时，我们如何收集、使用、储存和分享这些信息，以及我们为您提供的访问、更新、控制和保护这些信息的方式。本《隐私政策》与您所使用的掌上LAPA服务息息相关，希望您仔细阅读，在需要时，按照本《隐私政策》的指引，作出您认为适当的选择。本《隐私政策》中涉及的相关技术词汇，我们尽量以简明扼要的表述，并提供进一步说明的链接，以便您的理解。</view>
+        <view class="text-16 normal-margin-top">您使用或继续使用我们的服务，即意味着同意我们按照本《隐私政策》收集、使用、储存和分享您的相关信息。</view>
+        <view class="text-16 normal-margin-top">我们可能收集的信息
+          我们提供服务时，可能会收集、储存和使用下列与您有关的信息。如果您不提供相关信息，可能无法注册成为我们的用户或无法享受我们提供的某些服务，或者无法达到相关服务拟达到的效果。</view>
+        <view class="text-16 normal-margin-top">我们收集数据是根据您与我们的互动和您所做出的选择，包括您的隐私设置以及您使用的产品和功能。我们收集的数据可能包括SDK/API/JS代码版本、浏览器、互联网服务提供商、IP地址、平台、时间戳、应用标识符、应用程序版本、应用分发渠道、独立设备标识符、iOS广告标识符（IDFA)、安卓广告主标识符、网卡（MAC）地址、国际移动设备识别码（IMEI）、设备型号、终端制造厂商、终端设备操作系统版本、会话启动/停止时间、语言所在地、时区和网络状态（WiFi等）、硬盘、CPU和电池使用情况等。
+        </view>
+        <view class="text-16 normal-margin-top">您提供的信息
+          您在注册账户或使用我们的服务时，向我们提供的相关个人信息，例如电话号码、电子邮件等；</view>
+        <view class="text-16 normal-margin-top">您通过我们的服务向其他方提供的共享信息，以及您使用我们的服务时所储存的信息。</view>
+        <view class="text-16 normal-margin-top">
+          我们获取的您的信息
+          您使用服务时我们可能收集如下信息：</view>
+        <view class="text-16 normal-margin-top">日志信息，指您使用我们的服务时，系统可能通过cookies、web beacon或其他方式自动采集的技术信息，包括：
+          使用中产生的应用生产日志</view>
+        <view class="text-16 normal-margin-top">通讯录，指您使用我们的服务时，可能需要读取联系人：</view>
+        <view class="text-16 normal-margin-top">拨打客服电话时候，我们需要使用到通讯录权限。</view>
+        <view class="text-16 normal-margin-top">你使用我们的功能时候，需要使用到相机权限。</view>
+        <view class="text-16">扫一扫</view>
+        <view class="text-16">扫描条形码</view>
+        <view class="text-16 normal-margin-top">您通过手机号码进行登录时，为了实现验证码自动填充，需要向您申请读取短信权限；
+          我们只在您使用手机号码登录获取验证码的时候读取短信内容以获取验证码；
+          您可以通过关闭应用的读取短信权限，停止验证码自动填充服务。
+          SDK技术
+          SDK技术由与我们合作的第三方机构提供，我们仅能知悉其要求获得授权的权限。第三方机构将会需要收集您的信息，我们无法获取您的信息，除非第三方机构明确向我们披露的要收集的敏感信息。 第三方机构要求获得的权限以及明确向我们披露的收集的敏感信息，详见《SDK技术说明文档》。</view>
+        <view class="text-16 normal-margin-top">我们可能如何使用信息
+          我们可能将在向您提供服务的过程之中所收集的信息用作下列用途：</view>
+        <view class="text-16 normal-margin-top">向您提供服务；</view>
+        <view class="text-16 normal-margin-top">在我们提供服务时，用于身份验证、客户服务、安全防范、诈骗监测、存档和备份用途，确保我们向您提供的产品和服务的安全性；</view>
+        <view class="text-16 normal-margin-top">帮助我们设计新服务，改善我们现有服务；
+          使我们更加了解您如何接入和使用我们的服务，从而针对性地回应您的个性化需求，例如语言设定、位置设定、个性化的内容和指示，或对您和其他用户作出其他方面的回应；如您无需个性化内容，可以在设置中将其关闭；</view>
+        <view class="text-16 normal-margin-top">向您投放广告；
+          软件认证或管理软件升级；
+          让您参与有关我们产品和服务的调查。
+          您如何访问和控制自己的个人信息
+          我们将尽一切可能采取适当的技术手段，保证您可以访问、更新、更正和删除自己的注册信息或使用我们的服务时提供的其他个人信息。在访问、更新、更正和删除前述信息时，我们可能会要求您进行身份验证，以保障账户安全。</view>
+        <view class="text-16 normal-margin-top">我们不会分享您的任何信息。所有收集到的信息将存储到本国境内，受本国法律保护。</view>
+        <view class="text-16 normal-margin-top">信息安全
+          我们仅在本《隐私政策》所述目的所必需的期间和法律法规要求的时限内保留您的个人信息。
+        </view>
+        <view class="text-16 normal-margin-top">我们使用各种安全技术和程序，以防信息的丢失、不当使用、未经授权阅览或披露。例如，在某些服务中，我们将利用加密技术（例如SSL）来保护您提供的个人信息。但请您理解，由于技术的限制以及可能存在的各种恶意手段，在互联网行业，即便竭尽所能加强安全措施，也不可能始终保证信息百分之百的安全。您需要了解，您接入我们的服务所用的系统和通讯网络，有可能因我们可控范围外的因素而出现问题。
+        </view>
+        <view class="text-16 normal-margin-top">隐私政策的适用范围
+          除某些特定服务外，我们所有的服务均适用本《隐私政策》。这些特定服务将适用特定的隐私政策。针对某些特定服务的特定隐私政策，将更具体地说明我们在该等服务中如何使用您的信息。该特定服务的隐私政策构成本《隐私政策》的一部分。如相关特定服务的隐私政策与本《隐私政策》有不一致之处，适用该特定服务的隐私政策。</view>
+        <view class="text-16 normal-margin-top">变更
+          我们可能适时修订本《隐私政策》的条款，该等修订构成本《隐私政策》的一部分。如该等修订造成您在本《隐私政策》下权利的实质减少，我们将在修订生效前通过在主页上显著位置提示或向您发送电子邮件或以其他方式通知您。在该种情况下，若您继续使用我们的服务，即表示同意受经修订的本《隐私政策》的约束。
+        </view>
+        <view class="text-16 normal-margin-top">公司名称：深圳市爱商在线科技有限公司，联系电话: 400-0600-405</view>
+      </scroll-view>
+    </view>
+	</view>
+</template>
+
+<script>
+  import Mixin from '@/mixin/common_mixin'
+	export default {
+    mixins: [Mixin],
+		data() {
+			return {
+			}
+		}
+	}
+</script>
+
+<style lang="less">
+ .privacyWrap {
+   & .logoImg {
+     margin-top: 30upx;
+     & img {
+       width: 140upx;
+       height: 140upx;
+       border-radius: 4upx;
+     }
+   }
+   & .grayFont {
+     margin-top: 20upx;
+     font-size: 24upx;
+     color: #666666;
+   }
+   & .title {
+     margin-top: 20upx;
+     font-size: 48upx;
+   }
+   & .scrollWrap {
+     margin: 20upx;
+     & .privacyText {
+       & text {
+         color: ;
+       }
+     }
+   }
+ }
+</style>

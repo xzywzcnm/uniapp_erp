@@ -1,0 +1,942 @@
+{
+    "easycom": {
+      // 本地
+      "uniLoadMore": "@/components/uni-load-more/uni-load-more.vue",
+      "uniSegmentedControl": "@/components/uni-segmented-control/uni-segmented-control.vue",
+      "uniNumberBox": "@/components/uni-number-box/uni-number-box.vue",
+      // uni-ui
+      "uniSection": "@/components/uni-section/uni-section.vue",
+      "uniList": "@/components/uni-list/uni-list.vue",
+      "uniListItem": "@/components/uni-list-item/uni-list-item.vue",
+      "uniCollapse": "@/components/uni-collapse/uni-collapse.vue",
+      "uniCollapseItem": "@/components/uni-collapse-item/uni-collapse-item.vue",
+      "sevenButton": "@/components/sevenUI/components/switchButton/sevenButton.vue",
+      "minModal": "@/components/min-modal/min-modal.vue",
+      "uniPagination": "@/components/uni-pagination/uni-pagination.vue",
+      "uniIndexedList": "@/components/uni-indexed-list/uni-indexed-list.vue",
+      "uniCard": "@/components/uni-card/uni-card.vue",
+      "uniTag": "@/components/uni-tag/uni-tag.vue",
+      "sevenRow": "@/components/sevenUI/components/grid/row.vue",
+      "sevenCol": "@/components/sevenUI/components/grid/col.vue",
+	  "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+    },
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages qualityTestingDetails
+      {
+        "path" : "pages/index/index",
+        "style" : {
+          "navigationBarBackgroundColor" : "#1976d2",
+          "backgroundColor" : "#efeff4",
+          "enablePullDownRefresh" : true
+        }
+      } ,{
+        "path" : "pages/workspace/choseOnShelf",
+        "style" : {
+          "navigationBarBackgroundColor" : "#1976d2",
+          "backgroundColor" : "#efeff4",
+          "navigationBarTitleText" : "上架数据"
+        }
+      },{
+        "path" : "pages/workspace/stockReturnDetailsProcess",
+        "style" : {
+          "navigationBarBackgroundColor" : "#1976d2",
+          "backgroundColor" : "#efeff4",
+          "navigationBarTitleText" : "归库单"
+        }
+      },{
+        "path" : "pages/workspace/choseShip",
+        "style" : {
+          "navigationBarBackgroundColor" : "#1976d2",
+          "backgroundColor" : "#efeff4",
+          "navigationBarTitleText" : "选择物流"
+        }
+      },{
+        "path" : "pages/workspace/choseUser",
+        "style" : {
+          "navigationBarBackgroundColor" : "#1976d2",
+          "backgroundColor" : "#efeff4",
+          "navigationBarTitleText" : "选择拣货人"
+        }
+      },{
+        "path" : "pages/workspace/stockReturnDetails",
+        "style" : {
+          "navigationBarBackgroundColor" : "#1976d2",
+          "backgroundColor" : "#efeff4",
+          "navigationBarTitleText" : "归库单"
+        }
+      },{
+        "path" : "pages/workspace/stockReturn",
+        "style" : {
+          "navigationBarBackgroundColor" : "#1976d2",
+          "backgroundColor" : "#efeff4",
+          "navigationBarTitleText" : "归库单"
+        }
+      },{
+        "path" : "pages/workspace/workspace",
+        "style" : {
+          "navigationBarBackgroundColor" : "#1976d2",
+          "backgroundColor" : "#efeff4",
+          "navigationBarTitleText" : "工作中心"
+        }
+      },{
+        "path" : "pages/workspace/inventoryCheckDetails",
+        "style" : {
+          "navigationBarBackgroundColor" : "#1976d2",
+          "navigationBarTitleText" : "库存盘点详情",
+          "backgroundColor" : "#efeff4",
+          "enablePullDownRefresh" : true
+        }
+      },{
+        "path" : "pages/workspace/inventoryCheckOperation",
+        "style" : {
+          "navigationBarBackgroundColor" : "#1976d2",
+          "navigationBarTitleText" : "库存盘点扫描",
+          "backgroundColor" : "#efeff4",
+          "enablePullDownRefresh" : true
+        }
+      }, {
+        "path" : "pages/workspace/inventoryCheck",
+        "style" : {
+          "navigationBarBackgroundColor" : "#1976d2",
+          "navigationBarTitleText" : "库存盘点",
+          "backgroundColor" : "#efeff4"
+        }
+      },
+      {
+        "path" : "pages/workspace/InventoryCheckCreate",
+        "style" : {
+          "navigationBarBackgroundColor" : "#1976d2",
+          "backgroundColor" : "#efeff4",
+          "navigationBarTitleText" : "新建盘点单"
+        }
+      },
+
+
+
+
+      {
+        "path" : "pages/workspace/batchEditWarehouseLocation",
+        "style" : {
+          "navigationBarBackgroundColor" : "#1976d2",
+          "navigationBarTitleText" : "选择库位",
+          "backgroundColor" : "#efeff4"
+        }
+      },
+      {
+        "path" : "pages/workspace/inventoryMoveDetail",
+        "style" : {
+          "navigationBarBackgroundColor" : "#1976d2",
+          "navigationBarTitleText" : "已选",
+          "backgroundColor" : "#efeff4"
+        }
+      },
+      {
+        "path" : "pages/workspace/inventoryMovement",
+        "style" : {
+          "navigationBarBackgroundColor" : "#1976d2",
+          "navigationBarTitleText" : "库存移动",
+          "backgroundColor" : "#efeff4"
+        }
+      },
+
+
+
+
+        {
+            "path" : "pages/workspace/qualityTestingList",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "backgroundColor" : "#efeff4",
+                "navigationBarTitleText" : "质检"
+            }
+        },
+        {
+            "path" : "pages/workspace/newInventoryQuery",
+            "style" : {
+        			"navigationBarBackgroundColor" : "#1976d2",
+        			"navigationBarTitleText" : "库存查询",
+        			"backgroundColor" : "#efeff4"
+        		}
+        },
+
+        {
+            "path" : "pages/workspace/newInventoryResult",
+            "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "库存查询结果",
+              "backgroundColor" : "#efeff4"
+            }
+        },
+
+
+
+
+
+
+
+        {
+            "path" : "pages/account/account",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "navigationBarTitleText" : "帐号中心",
+                "backgroundColor" : "#efeff4"
+            }
+        },
+
+        {
+            "path" : "pages/index/statistics",
+            "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "backgroundColor" : "#efeff4",
+              "navigationBarTitleText" : "工作统计",
+              "enablePullDownRefresh" : true
+            }
+        },
+
+
+
+        {
+            "path" : "pages/workspace/packageVerify",
+            "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "包裹校验",
+              "backgroundColor" : "#efeff4"
+            }
+        },
+
+
+        {
+          "path" : "pages/workspace/newReceiving",
+          "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "backgroundColor" : "#efeff4",
+              "navigationBarTitleText" : "收货"
+          }
+        },
+
+
+        {
+            "path" : "pages/index/privacy",
+            "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "私隐政策说明",
+              "backgroundColor" : "#efeff4"
+            }
+        },
+
+
+
+        {
+          "path" : "pages/workspace/inventoryVerification",
+          "style" : {
+              "enablePullDownRefresh": true,
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "库存盘点",
+              "backgroundColor" : "#efeff4",
+              "app-plus": {
+              	"titleNView": {
+              		"buttons": [
+                    {
+                      "text": "\ue64c",
+                      "fontSrc": "/static/iconfont.ttf",
+                      "fontSize": "22px",
+                      "color": "#FFFFFF"
+                    },
+                    {
+                      "text": "\ue75b",
+                      "fontSrc": "/static/iconfont.ttf",
+                      "fontSize": "22px",
+                      "color": "#FFFFFF"
+                    }
+                  ]
+              	}
+              }
+          }
+        },
+        {
+          "path" : "pages/workspace/otherWarehousing",
+          "style" : {
+              "enablePullDownRefresh": true,
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "其他入库",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+
+        {
+          "path" : "pages/workspace/padPurchase",
+          "style" : {
+              "enablePullDownRefresh": true,
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "入库上架",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+        {
+          "path" : "pages/workspace/executeShipment",
+          "style" : {
+              "enablePullDownRefresh": true,
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "执行发货",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+
+
+
+        {
+            "path" : "pages/workspace/randomInventory",
+            "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "随机盘点",
+              "backgroundColor" : "#efeff4"
+
+            }
+        },
+
+
+        {
+          "path" : "pages/workspace/inventorQuery",
+          "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "库存查询",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+        {
+          "path" : "pages/workspace/pickingList",
+          "style" : {
+                "enablePullDownRefresh": true,
+                "navigationBarBackgroundColor" : "#1976d2",
+                "navigationBarTitleText" : "手机拣货",
+                "backgroundColor" : "#efeff4",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [{
+                            "text": "\ue64c",
+                            "fontSrc": "/static/iconfont.ttf",
+                            "fontSize": "22px",
+                            "color": "#FFFFFF"
+                        }]
+                    }
+                }
+          }
+        },
+
+        {
+            "path" : "pages/workspace/inventoryVerificationDetails",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "navigationBarTitleText" : "盘点单详情",
+                "backgroundColor" : "#efeff4"
+            }
+        },
+
+        {
+            "path" : "pages/workspace/otherWarehousingDetails",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "navigationBarTitleText" : "其他入库",
+                "backgroundColor" : "#efeff4"
+            }
+        },
+
+        {
+            "path" : "pages/workspace/purchaseArrival/purchaseArrival",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "navigationBarTitleText" : "采购到货",
+                "backgroundColor" : "#efeff4",
+                "app-plus": {
+                  "titleNView": {
+                    "buttons": [{
+                      "text": "\ue64c",
+                      "fontSrc": "/static/iconfont.ttf",
+                      "fontSize": "22px",
+                      "color": "#FFFFFF"
+                    }]
+                  }
+                }
+            }
+        },
+
+        {
+            "path" : "pages/workspace/purchaseArrival/purchaseDetail",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "navigationBarTitleText" : "采购到货",
+                "backgroundColor" : "#efeff4"
+            }
+        },
+
+
+        {
+            "path" : "pages/workspace/purchaseArrival/searchPurchase",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "navigationBarTitleText" : "查询采购单",
+                "backgroundColor" : "#efeff4"
+            }
+        },
+
+        {
+            "path" : "pages/workspace/productPickingDetails",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "navigationBarTitleText" : "",
+                "backgroundColor" : "#efeff4"
+            }
+        },
+
+
+        {
+            "path" : "pages/workspace/selectStorage",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "backgroundColor" : "#efeff4",
+                "enablePullDownRefresh" : false
+            }
+        },
+
+
+        {
+          "path" : "pages/workspace/cargoSpaceTransfer",
+          "style" : {
+              "enablePullDownRefresh": true,
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "库存转移",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+
+        {
+          "path" : "pages/workspace/newPickingDetails",
+          "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+        {
+            "path" : "pages/workspace/qualityTestingDetails",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "backgroundColor" : "#efeff4",
+                "navigationBarTitleText" : "提交质检结果"
+            }
+        },
+
+
+
+
+
+
+        {
+          "path" : "pages/workspace/newScanPackage",
+          "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "扫描篮子",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+        {
+          "path" : "pages/workspace/abnormal/abnormal",
+          "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "拣货异常处理",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+        {
+          "path" : "pages/workspace/abnormal/myPickUpTask",
+          "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "我的补拣任务",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+        {
+          "path" : "pages/workspace/abnormal/enterResult",
+          "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "录入补拣结果",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+        {
+          "path" : "pages/workspace/abnormal/pickLog",
+          "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "补拣",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+        {
+          "path" : "pages/workspace/abnormal/pickUpRecord",
+          "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "补拣记录",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+        {
+          "path" : "pages/workspace/abnormal/picking",
+          "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "补拣",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+        {
+          "path" : "pages/workspace/abnormal/binding",
+          "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "绑定异常处理库位",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+        {
+          "path" : "pages/workspace/abnormal/enterTheResult",
+          "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "录入补拣结果",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+        {
+          "path" : "pages/workspace/abnormal/pickUp",
+          "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "补拣",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+        {
+            "path" : "pages/workspace/checkNewPickingOrder",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "backgroundColor" : "#efeff4",
+                "navigationBarTitleText" : "查询拣货单",
+                "app-plus": {
+                  "titleNView": {
+                    "buttons": [{
+                      "text": "\ue604",
+                      "fontSrc": "/static/font/font_2212514_s3etdn8z8ri/iconfont.ttf",
+                      "fontSize": "22px",
+                      "color": "#FFFFFF"
+                    }]
+                  }
+                }
+            }
+        },
+
+        {
+            "path" : "pages/workspace/newPickingList",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "backgroundColor" : "#FFFFFF",
+                "navigationBarTitleText" : "拣货",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [{
+							"text": "\ue604",
+                            "fontSrc": "/static/font/font_2212514_s3etdn8z8ri/iconfont.ttf",
+                            "fontSize": "22px",
+                            "color": "#FFFFFF"
+                        }]
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/workspace/newPickingHistoryList",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "backgroundColor" : "#FFFFFF",
+                "navigationBarTitleText" : "已拣货"
+            }
+        },
+        {
+            "path" : "pages/workspace/warehouseSignFor",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "backgroundColor" : "#FFFFFF",
+                "navigationBarTitleText" : "到仓签收"
+            }
+        },
+
+        {
+          "path" : "pages/workspace/goodsAllocation",
+          "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "backgroundColor" : "#efeff4",
+              "navigationBarTitleText" : "选择收货库位"
+          }
+        },
+
+
+        {
+            "path" : "pages/workspace/checkPickingOrder",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "backgroundColor" : "#efeff4",
+                "navigationBarTitleText" : "查询拣货单"
+            }
+        },
+
+
+
+        {
+            "path" : "pages/workspace/putaway",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "backgroundColor" : "#FFFFFF",
+                "navigationBarTitleText" : "上架"
+            }
+        },
+        {
+            "path" : "pages/workspace/checkPurchaseOrder",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "backgroundColor" : "#efeff4",
+                "navigationBarTitleText" : "查询采购单"
+            }
+        },
+
+        {
+            "path" : "pages/index/logout",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "backgroundColor" : "#efeff4",
+                "navigationBarTitleText" : "退出登录"
+            }
+        },
+
+
+        {
+            "path" : "pages/workspace/inventorySearch",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "navigationBarTitleText" : "查询盘点单",
+                "backgroundColor" : "#efeff4"
+            }
+        },
+
+
+        {
+            "path" : "pages/workspace/inventoryDetails",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "navigationBarTitleText" : "",
+                "backgroundColor" : "#efeff4"
+            }
+        },
+        {
+          "path" : "pages/workspace/purchaseRandomResult",
+          "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "随机盘点",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+        {
+           "path" : "pages/workspace/randomList",
+           "style" : {
+               "navigationBarBackgroundColor" : "#1976d2",
+               "navigationBarTitleText" : "随机盘点列表",
+               "backgroundColor" : "#efeff4"
+           }
+         },
+
+
+        {
+          "path" : "pages/workspace/newProductPickingDetails",
+          "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+
+        {
+          "path" : "pages/workspace/pickingDetails",
+          "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+        {
+          "path" : "pages/workspace/scanPackage",
+          "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "navigationBarTitleText" : "扫描篮子",
+              "backgroundColor" : "#efeff4"
+          }
+        },
+
+
+        {
+            "path" : "pages/analysis/analysis",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "backgroundColor" : "#efeff4"
+            }
+        },
+        {
+            "path" : "pages/analysis/platformDataSearch",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "backgroundColor" : "#efeff4",
+                "navigationBarTitleText" : "按平台汇总统计销量"
+            }
+        },
+        {
+            "path" : "pages/analysis/logisterDataSearch",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "backgroundColor" : "#efeff4",
+                "navigationBarTitleText" : "按物流商统计销量"
+            }
+        },
+        {
+          "path" : "pages/login/login",
+          "style": {
+            "app-plus": {"titleNView": false}
+          }
+        },
+        {
+            "path" : "pages/index/ad",
+            "style" : {
+              "navigationBarBackgroundColor" : "#1976d2",
+              "backgroundColor" : "#efeff4"
+            }
+        },
+        {
+            "path" : "pages/account/editPassword",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "navigationBarTitleText" : "修改密码",
+                "backgroundColor" : "#efeff4"
+            }
+        },{
+            "path" : "pages/account/editAppSetting",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "navigationBarTitleText" : "修改ERP配置",
+                "backgroundColor" : "#efeff4"
+            }
+        },{
+            "path" : "pages/account/editAppThemeSetting",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "navigationBarTitleText" : "修改样式",
+                "backgroundColor" : "#efeff4"
+            }
+        },{
+            "path" : "pages/account/editAppEditionSetting",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "navigationBarTitleText" : "修改APP版本",
+                "backgroundColor" : "#efeff4"
+            }
+        },{
+            "path" : "pages/account/editScanningSetting",
+            "style" : {
+                "navigationBarBackgroundColor" : "#1976d2",
+                "navigationBarTitleText" : "修改扫描模式",
+                "backgroundColor" : "#efeff4"
+            }
+        },{
+				    "path" : "pages/account/editInventoryAuth",
+				    "style" : {
+							"navigationBarBackgroundColor" : "#1976d2",
+							"navigationBarTitleText" : "修改库存信息权限",
+							"backgroundColor" : "#efeff4"
+						}
+				},
+        {
+            "path" : "pages/workspace/purchaseList",
+            "style" : {
+                "enablePullDownRefresh": true,
+                "navigationBarBackgroundColor" : "#1976d2",
+                "navigationBarTitleText" : "掌中采购",
+                "backgroundColor" : "#efeff4",
+                "app-plus": {
+                	"titleNView": {
+                		"buttons": [{
+                			"text": "\ue64c",
+                			"fontSrc": "/static/iconfont.ttf",
+                			"fontSize": "22px",
+                			"color": "#FFFFFF"
+                		}]
+                	}
+                }
+            }
+        },
+        {
+            "path" : "pages/workspace/purchaseDetails",
+            "style" : {
+                "enablePullDownRefresh": true,
+                "navigationBarBackgroundColor" : "#1976d2",
+                "navigationBarTitleText" : "",
+                "backgroundColor" : "#efeff4"
+            }
+        },
+        {
+            "path" : "pages/workspace/purchaseDetailsHistoryList",
+            "style" : {
+                "enablePullDownRefresh": true,
+                "navigationBarBackgroundColor" : "#1976d2",
+                "navigationBarTitleText" : "历史记录",
+                "backgroundColor" : "#efeff4"
+            }
+        }
+        ,{
+            "path" : "pages/index/service",
+            "style" : {}
+        },
+		{
+		  "path" : "pages/workspace/packageList",
+		  "style" : {
+		    "navigationBarBackgroundColor" : "#1976d2",
+		    "navigationBarTitleText" : "查询包裹",
+		    "backgroundColor" : "#FFFFFF"
+		  }
+		},
+		{
+		  "path" : "pages/workspace/packageRegistration/operation",
+		  "style" : {
+		    "navigationBarBackgroundColor" : "#1976d2",
+		    "navigationBarTitleText" : "打包登记",
+		    "backgroundColor" : "#FFFFFF"
+		  }
+		},
+        {
+          "path" : "pages/workspace/transferDeliverGoods/list",
+          "style" : {
+            "navigationBarBackgroundColor" : "#1976d2",
+            "navigationBarTitleText" : "中转装箱",
+            "backgroundColor" : "#FFFFFF",
+            "app-plus": {
+              "titleNView": {
+                "buttons": [ {
+                  "text": "\ue64c",
+                  "fontSrc": "/static/iconfont.ttf",
+                  "fontSize": "22px",
+                  "color": "#FFFFFF"
+                }]
+              }
+            }
+          }
+        },
+        {
+          "path" : "pages/workspace/transferDeliverGoods/invoiceDetails",
+          "style" : {
+            "navigationBarBackgroundColor" : "#1976d2",
+            "navigationBarTitleText" : "发货单明细",
+            "backgroundColor" : "#FFFFFF",
+            "app-plus": {
+              "titleNView": {
+                "buttons": [ {
+                  "text": "\ue64c",
+                  "fontSrc": "/static/iconfont.ttf",
+                  "fontSize": "22px",
+                  "color": "#FFFFFF"
+                }]
+              }
+            }
+          }
+        },
+        {
+          "path" : "pages/workspace/transferDeliverGoods/binning",
+          "style" : {
+            "navigationBarBackgroundColor" : "#1976d2",
+            "navigationBarTitleText" : "装箱",
+            "backgroundColor" : "#FFFFFF"
+          }
+        },
+        {
+          "path" : "pages/workspace/transferDeliverGoods/unpacking",
+          "style" : {
+            "navigationBarBackgroundColor" : "#1976d2",
+            "navigationBarTitleText" : "拆箱",
+            "backgroundColor" : "#FFFFFF"
+          }
+        },
+        {
+          "path" : "pages/workspace/transferDeliverGoods/search",
+          "style" : {
+            "navigationBarBackgroundColor" : "#1976d2",
+            "navigationBarTitleText" : "搜索",
+            "backgroundColor" : "#FFFFFF"
+          }
+        },
+        {
+          "path" : "pages/workspace/transferDeliverGoods/invoiceDetailsSearch",
+          "style" : {
+            "navigationBarBackgroundColor" : "#1976d2",
+            "navigationBarTitleText" : "搜索",
+            "backgroundColor" : "#FFFFFF"
+          }
+        },
+        {
+          "path" : "pages/workspace/collect",
+          "style" : {
+            "navigationBarBackgroundColor" : "#1976d2",
+            "navigationBarTitleText" : "揽收",
+            "backgroundColor" : "#FFFFFF"
+          }
+        }
+
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "white",
+        "navigationBarTitleText" : "LAPA ERP",
+        "navigationBarBackgroundColor" : "#efeff4",
+        "backgroundColor" : "#efeff4"
+    },
+    "tabBar" : {
+        "color" : "#757575",
+        "selectedColor" : "#2196f3",
+        "backgroundColor" : "#fff",
+        "borderStyle" : "white",
+        "position" : "bottom",
+        "list" : [
+            {
+                "pagePath" : "pages/index/index",
+                "text" : "首页",
+                "iconPath" : "static/img/home.png",
+                "selectedIconPath" : "static/img/home_selected.png"
+            },
+            {
+                "pagePath" : "pages/analysis/analysis",
+                "text" : "分析",
+                "iconPath" : "static/img/analysis.png",
+                "selectedIconPath" : "static/img/analysis_selected.png"
+            },
+            {
+                "pagePath" : "pages/workspace/workspace",
+                "text" : "工作",
+                "iconPath" : "static/img/workspace.png",
+                "selectedIconPath" : "static/img/workspace_selected.png"
+            },
+            {
+                "pagePath" : "pages/account/account",
+                "text" : "帐户",
+                "iconPath" : "static/img/account.png",
+                "selectedIconPath" : "static/img/account_selected.png"
+            }
+        ]
+    },
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

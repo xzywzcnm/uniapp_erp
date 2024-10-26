@@ -1,0 +1,27 @@
+{
+    "version" : "1",
+    "prompt" : "template",
+    "title" : "服务协议和隐私政策",
+    "message" : "　　请你务必审慎阅读，充分理解“服务协议”和“私隐政策”内容，包括但不限于：为你提供内容服务。我们不会收集你的个人信息，你可以在移动设备的设置中设置变更你的授权。<br/>　　你可阅读<a href=\"hybrid/html/services.html\">《服务协议》</a>和<a href=\"hybrid/html/privacy.html\">《隐私政策》</a>了解详细信息。如果你同意，请点击下面按钮开始接受我们的服务。",
+    "buttonAccept" : "同意并接受",
+    "buttonRefuse" : "暂不同意",
+    "second" : {
+        "title" : "确认提示",
+        "message" : "　　进入应用前，你需先同意<a href=\"hybrid/html/services.html\">《服务协议》</a>和<a href=\"hybrid/html/privacy.html\">《隐私政策》</a>，否则将退出应用。",
+        "buttonAccept" : "同意并继续",
+        "buttonRefuse" : "退出应用"
+    },
+    "styles" : {
+        "backgroundColor" : "#FFFFFF",
+        "borderRadius" : "5px",
+        "title" : {
+            "color" : "#00000"
+        },
+        "buttonAccept" : {
+            "color" : "#000000"
+        },
+        "buttonRefuse" : {
+            "color" : "#FF0000"
+        }
+    }
+}

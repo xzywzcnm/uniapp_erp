@@ -1,0 +1,4172 @@
+.tongtool-home {
+  height: 380upx;
+}
+
+.tongtool-home-firstscreen {
+  width: 100%;
+  height: 380upx;
+}
+
+.tongtool-home-firstscreen img {
+  width: 100%;
+  height: 380upx;
+}
+
+.tongtool-home-regAndLogin {
+  background-color: #fff;
+}
+
+.tongtool-home-regAndLogin>span {
+  padding: 26upx 10upx;
+}
+
+.tongtool-home-regAndLogin .reg {
+  margin-right: 16upx;
+}
+
+.tongtool-home-regAndLogin .reg .regButton {
+  min-width: 54px;
+  margin: 12upx 8upx 0 8upx;
+}
+
+.tongtool-home-regAndLogin .hasLogin .text-14 {
+  margin-right: 10upx;
+}
+
+.tongtool-home-regAndLogin .hasLogin .regButton {
+  min-width: 54px;
+}
+
+.tongtool-home-tabWrap {
+  padding: 16upx;
+}
+
+.tongtool-home-tabWrap .todayTotal {
+  width: 100% !important;
+}
+
+.tongtool-home-tabWrap .todayTotal .todayItem {
+  margin: 5px 10px 10px 10px;
+}
+
+.tongtool-home-tabWrap .todayTotal .detailsItem {
+  padding: 0 10upx 20upx;
+  color: #4fc3f7;
+}
+
+.tongtool-home-tabWrap .wrap {
+  border: 1px solid #e1e1e1;
+  margin: 10upx;
+  flex-shrink: 0;
+  width: 47%;
+}
+
+.tongtool-home-tabWrap .wrap .priBg {
+  background-color: #4fc3f7 !important;
+  color: #fff !important;
+}
+
+.tongtool-home-tabWrap .wrap .salesDate {
+  position: relative;
+  text-align: center;
+  margin-top: 10upx;
+}
+
+.tongtool-home-tabWrap .wrap .salesDate .mu-divider {
+  position: relative;
+  z-index: 1;
+  top: -20upx;
+}
+
+.tongtool-home-tabWrap .wrap .salesDate span {
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  padding: 10upx;
+  color: #515a6e;
+  position: relative;
+  z-index: 2;
+}
+
+.tongtool-home-tabWrap .wrap .salesContent {
+  margin: 6upx;
+}
+
+.tongtool-home-rangeAdList {
+  background-color: #fff;
+  padding: 0.6rem 0 !important;
+  margin-top: 0.6rem !important;
+}
+
+.tongtool-home-statistics {
+  border-top: 1upx solid rgba(0, 0, 0, 0.12);
+}
+
+.tongtool-home-statistics .statisticsTab {
+  border-bottom: 1upx solid rgba(0, 0, 0, 0.12);
+}
+
+.tongtool-home-statistics .statisticsTab .statisticsItem {
+  padding: 30upx 0;
+  background-color: #e7e7e7;
+}
+
+.tongtool-home-statistics .statisticsTab .active {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+.tongtool-home-statistics .tableContainer {
+  margin: 40upx;
+  font-size: 28upx;
+}
+
+.tongtool-home-statistics .tableContainer .header .tcItem {
+  background-color: #e7e7e7;
+  padding: 10upx 0;
+}
+
+.tongtool-home-statistics .tableContainer .listItem .tcItem {
+  background-color: #f7f7f7;
+  padding: 10upx 0;
+  border-bottom: 1upx solid #fff;
+}
+
+.tongtool-base-header-font {
+  color: #fff;
+  text-align: center;
+}
+
+.tongtool-base-header-mobile-bar {
+  height: 1rem;
+  background-color: #1976d2;
+}
+
+.text-8 {
+  font-size: 16upx;
+}
+
+.text-10 {
+  font-size: 20upx;
+}
+
+.text-12 {
+  font-size: 24upx;
+}
+
+.text-14 {
+  font-size: 28upx;
+}
+
+.text-16 {
+  font-size: 32upx;
+}
+
+.text-18 {
+  font-size: 36upx;
+}
+
+.mr10 {
+  margin-right: 10rpx;
+}
+
+.mt10 {
+  margin-top: 10rpx;
+}
+
+.mb10 {
+  margin-bottom: 10rpx;
+}
+
+.ml10 {
+  margin-left: 10rpx;
+}
+
+.mr10 {
+  margin-right: 10rpx;
+}
+
+.mt20 {
+  margin-top: 20rpx;
+}
+
+.mb20 {
+  margin-bottom: 20rpx;
+}
+
+.ml20 {
+  margin-left: 20rpx;
+}
+
+.mr20 {
+  margin-right: 20rpx;
+}
+
+.p10 {
+  padding: 10rpx;
+}
+
+.pt10 {
+  padding-top: 10rpx;
+}
+
+.pb10 {
+  padding-bottom: 10rpx;
+}
+
+.pb50 {
+  padding-bottom: 50px;
+}
+
+.pb100 {
+  padding-bottom: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.color-333 {
+  color: #333333;
+}
+
+.font-size-big {
+  font-size: 24px;
+}
+
+.img-box {
+  text-align: center;
+}
+
+.bottomBit {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  z-index: 999;
+}
+
+.bottomBit button {
+  width: 100%;
+  margin: 20upx;
+  background-color: #1976d2;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  clear: both;
+  height: 0;
+  content: '';
+  display: block;
+}
+
+.uni-mt10 .uni-section {
+  margin-top: 10upx;
+}
+
+.inline {
+  display: inline;
+}
+
+.color-666 {
+  color: #666666;
+}
+
+.color-red {
+  color: red;
+}
+
+.blue-color {
+  color: #1976d2;
+}
+
+.orange-color {
+  color: #f44336;
+}
+
+.green-color {
+  color: #4caf50;
+}
+
+.normal-margin-top {
+  margin-top: 10px;
+}
+
+.flex-wrapper {
+  width: 100%;
+  height: 56px;
+  margin-top: 8px;
+}
+
+.white-bg-color {
+  background-color: #fff;
+}
+
+.white-space-nowrap {
+  white-space: nowrap;
+}
+
+.mu-divider {
+  margin: 0;
+  height: 1px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.12);
+  width: 100%;
+}
+
+.formItem {
+  font-size: 24upx;
+  padding: 20upx 24upx;
+  position: relative;
+}
+
+.formItem .title {
+  font-size: 28upx;
+  padding: 12upx 0;
+}
+
+.formItem .formInput {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 20upx 30upx;
+}
+
+.formItem .eyes {
+  position: absolute;
+  right: 40upx;
+  bottom: 40upx;
+  z-index: 2;
+  padding: 10upx;
+}
+
+.normalPadding {
+  padding: 20upx;
+}
+
+.uni-input {
+  height: 50upx;
+  padding: 15upx 25upx;
+  line-height: 50upx;
+  font-size: 28upx;
+  background: #FFF;
+  flex: 1;
+  box-sizing: content-box;
+}
+
+.small-uni-input {
+  height: 40upx;
+  padding: 10upx 25upx;
+}
+
+.buttonFlex {
+  display: flex;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.uni-list-cell-db {
+  box-sizing: content-box;
+}
+
+.uni-list-cell-db uni-view {
+  box-sizing: content-box;
+}
+
+.i-input {
+  display: inline-block;
+  width: 100%;
+  height: 28px !important;
+  line-height: 24px;
+  font-size: 24upx;
+  border: 1px solid #dddee1;
+  color: #495060;
+  background-color: #fff;
+  background-image: none;
+  position: relative;
+  cursor: text;
+  transition: border 0.2s ease-in-out, background 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.alert-info {
+  padding: 5px;
+  border: 1px solid #8ce6b0;
+  background-color: #edfff3;
+  color: #515a6e;
+  position: relative;
+}
+
+.color-fff {
+  color: #ffffff;
+}
+
+.color-red {
+  color: red;
+}
+
+.row-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/*https://github.com/twbs/bootstrap/blob/v4-dev/dist/css/bootstrap-grid.css*/
+.container {
+  width: 100%;
+  padding-right: 8px;
+  padding-left: 8px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 8px;
+  padding-left: 8px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.col,
+.col-auto,
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm,
+.col-sm-auto,
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md,
+.col-md-auto,
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg,
+.col-lg-auto,
+.col-xl-1,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl,
+.col-xl-auto {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+}
+
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.col-auto {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: auto;
+  max-width: none;
+}
+
+.col-1 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 8.333333%;
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%;
+}
+
+.col-2 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 16.666667%;
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+
+.col-3 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-4 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.col-5 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 41.666667%;
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+
+.col-6 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-7 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 58.333333%;
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+
+.col-8 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 66.666667%;
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+
+.col-9 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.col-10 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 83.333333%;
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+
+.col-11 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 91.666667%;
+  flex: 0 0 91.666667%;
+  max-width: 91.666667%;
+}
+
+.col-12 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.order-first {
+  -webkit-box-ordinal-group: 0;
+  -ms-flex-order: -1;
+  order: -1;
+}
+
+.order-last {
+  -webkit-box-ordinal-group: 14;
+  -ms-flex-order: 13;
+  order: 13;
+}
+
+.order-0 {
+  -webkit-box-ordinal-group: 1;
+  -ms-flex-order: 0;
+  order: 0;
+}
+
+.order-1 {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.order-2 {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.order-3 {
+  -webkit-box-ordinal-group: 4;
+  -ms-flex-order: 3;
+  order: 3;
+}
+
+.order-4 {
+  -webkit-box-ordinal-group: 5;
+  -ms-flex-order: 4;
+  order: 4;
+}
+
+.order-5 {
+  -webkit-box-ordinal-group: 6;
+  -ms-flex-order: 5;
+  order: 5;
+}
+
+.order-6 {
+  -webkit-box-ordinal-group: 7;
+  -ms-flex-order: 6;
+  order: 6;
+}
+
+.order-7 {
+  -webkit-box-ordinal-group: 8;
+  -ms-flex-order: 7;
+  order: 7;
+}
+
+.order-8 {
+  -webkit-box-ordinal-group: 9;
+  -ms-flex-order: 8;
+  order: 8;
+}
+
+.order-9 {
+  -webkit-box-ordinal-group: 10;
+  -ms-flex-order: 9;
+  order: 9;
+}
+
+.order-10 {
+  -webkit-box-ordinal-group: 11;
+  -ms-flex-order: 10;
+  order: 10;
+}
+
+.order-11 {
+  -webkit-box-ordinal-group: 12;
+  -ms-flex-order: 11;
+  order: 11;
+}
+
+.order-12 {
+  -webkit-box-ordinal-group: 13;
+  -ms-flex-order: 12;
+  order: 12;
+}
+
+.offset-1 {
+  margin-left: 8.333333%;
+}
+
+.offset-2 {
+  margin-left: 16.666667%;
+}
+
+.offset-3 {
+  margin-left: 25%;
+}
+
+.offset-4 {
+  margin-left: 33.333333%;
+}
+
+.offset-5 {
+  margin-left: 41.666667%;
+}
+
+.offset-6 {
+  margin-left: 50%;
+}
+
+.offset-7 {
+  margin-left: 58.333333%;
+}
+
+.offset-8 {
+  margin-left: 66.666667%;
+}
+
+.offset-9 {
+  margin-left: 75%;
+}
+
+.offset-10 {
+  margin-left: 83.333333%;
+}
+
+.offset-11 {
+  margin-left: 91.666667%;
+}
+
+@media (min-width: 576px) {
+  .col-sm {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  .col-sm-auto {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+  }
+
+  .col-sm-1 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+
+  .col-sm-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+
+  .col-sm-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-sm-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .col-sm-5 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+
+  .col-sm-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-sm-7 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+
+  .col-sm-8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+
+  .col-sm-9 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .col-sm-10 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+
+  .col-sm-11 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+
+  .col-sm-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .order-sm-first {
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  .order-sm-last {
+    -webkit-box-ordinal-group: 14;
+    -ms-flex-order: 13;
+    order: 13;
+  }
+
+  .order-sm-0 {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+
+  .order-sm-1 {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .order-sm-2 {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .order-sm-3 {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+
+  .order-sm-4 {
+    -webkit-box-ordinal-group: 5;
+    -ms-flex-order: 4;
+    order: 4;
+  }
+
+  .order-sm-5 {
+    -webkit-box-ordinal-group: 6;
+    -ms-flex-order: 5;
+    order: 5;
+  }
+
+  .order-sm-6 {
+    -webkit-box-ordinal-group: 7;
+    -ms-flex-order: 6;
+    order: 6;
+  }
+
+  .order-sm-7 {
+    -webkit-box-ordinal-group: 8;
+    -ms-flex-order: 7;
+    order: 7;
+  }
+
+  .order-sm-8 {
+    -webkit-box-ordinal-group: 9;
+    -ms-flex-order: 8;
+    order: 8;
+  }
+
+  .order-sm-9 {
+    -webkit-box-ordinal-group: 10;
+    -ms-flex-order: 9;
+    order: 9;
+  }
+
+  .order-sm-10 {
+    -webkit-box-ordinal-group: 11;
+    -ms-flex-order: 10;
+    order: 10;
+  }
+
+  .order-sm-11 {
+    -webkit-box-ordinal-group: 12;
+    -ms-flex-order: 11;
+    order: 11;
+  }
+
+  .order-sm-12 {
+    -webkit-box-ordinal-group: 13;
+    -ms-flex-order: 12;
+    order: 12;
+  }
+
+  .offset-sm-0 {
+    margin-left: 0;
+  }
+
+  .offset-sm-1 {
+    margin-left: 8.333333%;
+  }
+
+  .offset-sm-2 {
+    margin-left: 16.666667%;
+  }
+
+  .offset-sm-3 {
+    margin-left: 25%;
+  }
+
+  .offset-sm-4 {
+    margin-left: 33.333333%;
+  }
+
+  .offset-sm-5 {
+    margin-left: 41.666667%;
+  }
+
+  .offset-sm-6 {
+    margin-left: 50%;
+  }
+
+  .offset-sm-7 {
+    margin-left: 58.333333%;
+  }
+
+  .offset-sm-8 {
+    margin-left: 66.666667%;
+  }
+
+  .offset-sm-9 {
+    margin-left: 75%;
+  }
+
+  .offset-sm-10 {
+    margin-left: 83.333333%;
+  }
+
+  .offset-sm-11 {
+    margin-left: 91.666667%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  .col-md-auto {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+  }
+
+  .col-md-1 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+
+  .col-md-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+
+  .col-md-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-md-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .col-md-5 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+
+  .col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-md-7 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+
+  .col-md-8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+
+  .col-md-9 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .col-md-10 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+
+  .col-md-11 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+
+  .col-md-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .order-md-first {
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  .order-md-last {
+    -webkit-box-ordinal-group: 14;
+    -ms-flex-order: 13;
+    order: 13;
+  }
+
+  .order-md-0 {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+
+  .order-md-1 {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .order-md-2 {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .order-md-3 {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+
+  .order-md-4 {
+    -webkit-box-ordinal-group: 5;
+    -ms-flex-order: 4;
+    order: 4;
+  }
+
+  .order-md-5 {
+    -webkit-box-ordinal-group: 6;
+    -ms-flex-order: 5;
+    order: 5;
+  }
+
+  .order-md-6 {
+    -webkit-box-ordinal-group: 7;
+    -ms-flex-order: 6;
+    order: 6;
+  }
+
+  .order-md-7 {
+    -webkit-box-ordinal-group: 8;
+    -ms-flex-order: 7;
+    order: 7;
+  }
+
+  .order-md-8 {
+    -webkit-box-ordinal-group: 9;
+    -ms-flex-order: 8;
+    order: 8;
+  }
+
+  .order-md-9 {
+    -webkit-box-ordinal-group: 10;
+    -ms-flex-order: 9;
+    order: 9;
+  }
+
+  .order-md-10 {
+    -webkit-box-ordinal-group: 11;
+    -ms-flex-order: 10;
+    order: 10;
+  }
+
+  .order-md-11 {
+    -webkit-box-ordinal-group: 12;
+    -ms-flex-order: 11;
+    order: 11;
+  }
+
+  .order-md-12 {
+    -webkit-box-ordinal-group: 13;
+    -ms-flex-order: 12;
+    order: 12;
+  }
+
+  .offset-md-0 {
+    margin-left: 0;
+  }
+
+  .offset-md-1 {
+    margin-left: 8.333333%;
+  }
+
+  .offset-md-2 {
+    margin-left: 16.666667%;
+  }
+
+  .offset-md-3 {
+    margin-left: 25%;
+  }
+
+  .offset-md-4 {
+    margin-left: 33.333333%;
+  }
+
+  .offset-md-5 {
+    margin-left: 41.666667%;
+  }
+
+  .offset-md-6 {
+    margin-left: 50%;
+  }
+
+  .offset-md-7 {
+    margin-left: 58.333333%;
+  }
+
+  .offset-md-8 {
+    margin-left: 66.666667%;
+  }
+
+  .offset-md-9 {
+    margin-left: 75%;
+  }
+
+  .offset-md-10 {
+    margin-left: 83.333333%;
+  }
+
+  .offset-md-11 {
+    margin-left: 91.666667%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  .col-lg-auto {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+  }
+
+  .col-lg-1 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+
+  .col-lg-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+
+  .col-lg-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-lg-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .col-lg-5 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+
+  .col-lg-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-lg-7 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+
+  .col-lg-8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+
+  .col-lg-9 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .col-lg-10 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+
+  .col-lg-11 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+
+  .col-lg-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .order-lg-first {
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  .order-lg-last {
+    -webkit-box-ordinal-group: 14;
+    -ms-flex-order: 13;
+    order: 13;
+  }
+
+  .order-lg-0 {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+
+  .order-lg-1 {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .order-lg-2 {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .order-lg-3 {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+
+  .order-lg-4 {
+    -webkit-box-ordinal-group: 5;
+    -ms-flex-order: 4;
+    order: 4;
+  }
+
+  .order-lg-5 {
+    -webkit-box-ordinal-group: 6;
+    -ms-flex-order: 5;
+    order: 5;
+  }
+
+  .order-lg-6 {
+    -webkit-box-ordinal-group: 7;
+    -ms-flex-order: 6;
+    order: 6;
+  }
+
+  .order-lg-7 {
+    -webkit-box-ordinal-group: 8;
+    -ms-flex-order: 7;
+    order: 7;
+  }
+
+  .order-lg-8 {
+    -webkit-box-ordinal-group: 9;
+    -ms-flex-order: 8;
+    order: 8;
+  }
+
+  .order-lg-9 {
+    -webkit-box-ordinal-group: 10;
+    -ms-flex-order: 9;
+    order: 9;
+  }
+
+  .order-lg-10 {
+    -webkit-box-ordinal-group: 11;
+    -ms-flex-order: 10;
+    order: 10;
+  }
+
+  .order-lg-11 {
+    -webkit-box-ordinal-group: 12;
+    -ms-flex-order: 11;
+    order: 11;
+  }
+
+  .order-lg-12 {
+    -webkit-box-ordinal-group: 13;
+    -ms-flex-order: 12;
+    order: 12;
+  }
+
+  .offset-lg-0 {
+    margin-left: 0;
+  }
+
+  .offset-lg-1 {
+    margin-left: 8.333333%;
+  }
+
+  .offset-lg-2 {
+    margin-left: 16.666667%;
+  }
+
+  .offset-lg-3 {
+    margin-left: 25%;
+  }
+
+  .offset-lg-4 {
+    margin-left: 33.333333%;
+  }
+
+  .offset-lg-5 {
+    margin-left: 41.666667%;
+  }
+
+  .offset-lg-6 {
+    margin-left: 50%;
+  }
+
+  .offset-lg-7 {
+    margin-left: 58.333333%;
+  }
+
+  .offset-lg-8 {
+    margin-left: 66.666667%;
+  }
+
+  .offset-lg-9 {
+    margin-left: 75%;
+  }
+
+  .offset-lg-10 {
+    margin-left: 83.333333%;
+  }
+
+  .offset-lg-11 {
+    margin-left: 91.666667%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  .col-xl-auto {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+  }
+
+  .col-xl-1 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+
+  .col-xl-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+
+  .col-xl-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-xl-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .col-xl-5 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+
+  .col-xl-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-xl-7 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+
+  .col-xl-8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+
+  .col-xl-9 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .col-xl-10 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+
+  .col-xl-11 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+
+  .col-xl-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .order-xl-first {
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  .order-xl-last {
+    -webkit-box-ordinal-group: 14;
+    -ms-flex-order: 13;
+    order: 13;
+  }
+
+  .order-xl-0 {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+
+  .order-xl-1 {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .order-xl-2 {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .order-xl-3 {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+
+  .order-xl-4 {
+    -webkit-box-ordinal-group: 5;
+    -ms-flex-order: 4;
+    order: 4;
+  }
+
+  .order-xl-5 {
+    -webkit-box-ordinal-group: 6;
+    -ms-flex-order: 5;
+    order: 5;
+  }
+
+  .order-xl-6 {
+    -webkit-box-ordinal-group: 7;
+    -ms-flex-order: 6;
+    order: 6;
+  }
+
+  .order-xl-7 {
+    -webkit-box-ordinal-group: 8;
+    -ms-flex-order: 7;
+    order: 7;
+  }
+
+  .order-xl-8 {
+    -webkit-box-ordinal-group: 9;
+    -ms-flex-order: 8;
+    order: 8;
+  }
+
+  .order-xl-9 {
+    -webkit-box-ordinal-group: 10;
+    -ms-flex-order: 9;
+    order: 9;
+  }
+
+  .order-xl-10 {
+    -webkit-box-ordinal-group: 11;
+    -ms-flex-order: 10;
+    order: 10;
+  }
+
+  .order-xl-11 {
+    -webkit-box-ordinal-group: 12;
+    -ms-flex-order: 11;
+    order: 11;
+  }
+
+  .order-xl-12 {
+    -webkit-box-ordinal-group: 13;
+    -ms-flex-order: 12;
+    order: 12;
+  }
+
+  .offset-xl-0 {
+    margin-left: 0;
+  }
+
+  .offset-xl-1 {
+    margin-left: 8.333333%;
+  }
+
+  .offset-xl-2 {
+    margin-left: 16.666667%;
+  }
+
+  .offset-xl-3 {
+    margin-left: 25%;
+  }
+
+  .offset-xl-4 {
+    margin-left: 33.333333%;
+  }
+
+  .offset-xl-5 {
+    margin-left: 41.666667%;
+  }
+
+  .offset-xl-6 {
+    margin-left: 50%;
+  }
+
+  .offset-xl-7 {
+    margin-left: 58.333333%;
+  }
+
+  .offset-xl-8 {
+    margin-left: 66.666667%;
+  }
+
+  .offset-xl-9 {
+    margin-left: 75%;
+  }
+
+  .offset-xl-10 {
+    margin-left: 83.333333%;
+  }
+
+  .offset-xl-11 {
+    margin-left: 91.666667%;
+  }
+}
+
+.d-flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.flexOne {
+  flex: 1;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.d-inline-flex {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+}
+
+@media print {
+  .d-print-none {
+    display: none !important;
+  }
+
+  .d-print-inline {
+    display: inline !important;
+  }
+
+  .d-print-inline-block {
+    display: inline-block !important;
+  }
+
+  .d-print-block {
+    display: block !important;
+  }
+
+  .d-print-table {
+    display: table !important;
+  }
+
+  .d-print-table-row {
+    display: table-row !important;
+  }
+
+  .d-print-table-cell {
+    display: table-cell !important;
+  }
+
+  .d-print-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+
+  .d-print-inline-flex {
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+  }
+}
+
+.flex-row {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
+
+.flex-row-reverse {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: reverse !important;
+  -ms-flex-direction: row-reverse !important;
+  flex-direction: row-reverse !important;
+}
+
+.flex-column-reverse {
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: reverse !important;
+  -ms-flex-direction: column-reverse !important;
+  flex-direction: column-reverse !important;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
+}
+
+.flex-nowrap {
+  -ms-flex-wrap: nowrap !important;
+  flex-wrap: nowrap !important;
+}
+
+.flex-wrap-reverse {
+  -ms-flex-wrap: wrap-reverse !important;
+  flex-wrap: wrap-reverse !important;
+}
+
+.flex-fill {
+  -webkit-box-flex: 1 !important;
+  -ms-flex: 1 1 auto !important;
+  flex: 1 1 auto !important;
+}
+
+.justify-content-start {
+  -webkit-box-pack: start !important;
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
+}
+
+.justify-content-end {
+  -webkit-box-pack: end !important;
+  -ms-flex-pack: end !important;
+  justify-content: flex-end !important;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify !important;
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+}
+
+.justify-content-around {
+  -ms-flex-pack: distribute !important;
+  justify-content: space-around !important;
+}
+
+.align-items-start {
+  -webkit-box-align: start !important;
+  -ms-flex-align: start !important;
+  align-items: flex-start !important;
+}
+
+.align-items-end {
+  -webkit-box-align: end !important;
+  -ms-flex-align: end !important;
+  align-items: flex-end !important;
+}
+
+.align-items-center {
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.align-items-baseline {
+  -webkit-box-align: baseline !important;
+  -ms-flex-align: baseline !important;
+  align-items: baseline !important;
+}
+
+.align-items-stretch {
+  -webkit-box-align: stretch !important;
+  -ms-flex-align: stretch !important;
+  align-items: stretch !important;
+}
+
+.align-content-start {
+  -ms-flex-line-pack: start !important;
+  align-content: flex-start !important;
+}
+
+.align-content-end {
+  -ms-flex-line-pack: end !important;
+  align-content: flex-end !important;
+}
+
+.align-content-center {
+  -ms-flex-line-pack: center !important;
+  align-content: center !important;
+}
+
+.align-content-between {
+  -ms-flex-line-pack: justify !important;
+  align-content: space-between !important;
+}
+
+.align-content-around {
+  -ms-flex-line-pack: distribute !important;
+  align-content: space-around !important;
+}
+
+.align-content-stretch {
+  -ms-flex-line-pack: stretch !important;
+  align-content: stretch !important;
+}
+
+.align-self-auto {
+  -ms-flex-item-align: auto !important;
+  align-self: auto !important;
+}
+
+.align-self-start {
+  -ms-flex-item-align: start !important;
+  align-self: flex-start !important;
+}
+
+.align-self-end {
+  -ms-flex-item-align: end !important;
+  align-self: flex-end !important;
+}
+
+.align-self-center {
+  -ms-flex-item-align: center !important;
+  align-self: center !important;
+}
+
+.align-self-baseline {
+  -ms-flex-item-align: baseline !important;
+  align-self: baseline !important;
+}
+
+.align-self-stretch {
+  -ms-flex-item-align: stretch !important;
+  align-self: stretch !important;
+}
+
+.phone-icon {
+  color: #0A98D5;
+  padding-left: 15rpx;
+  display: inline;
+}
+
+.tongtool-account-header {
+  background-image: linear-gradient(to top, #469cf1 0%, #1976d2 100%);
+  width: 100%;
+  min-height: 160upx;
+  color: #fff;
+}
+
+.tongtool-account-header .accountUserImg {
+  width: 100upx;
+  height: 100upx;
+  border-radius: 50%;
+  margin: 30upx;
+  border: 6upx solid #fff;
+}
+
+.tongtool-account-header .iconImg {
+  margin-top: 28upx;
+  font-size: 30upx;
+}
+
+.tongtool-account-header .iconImg .iconImgTop {
+  margin-top: 10upx;
+  font-size: 26upx;
+}
+
+.tongtool-account-header .iconImg .iconImgTop .email {
+  margin: 6upx 12upx 0 6upx;
+  font-size: 24upx;
+}
+
+.tongtool-account-header .iconImg .iconImgTop .topPhone {
+  font-size: 32upx;
+}
+
+.tongtool-account-header .iconImg .iconImgTop .accountLen {
+  width: 350upx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.tongtool-account-header .editPasswd {
+  margin: 28upx;
+}
+
+.tongtool-account-header .editPasswd button {
+  font-size: 26upx;
+}
+
+.tongtool-account-bill {
+  background-color: #fff;
+  height: 60upx;
+  font-size: 24upx;
+}
+
+.tongtool-account-bill .center {
+  text-align: center;
+  width: 100%;
+}
+
+.tongtool-account-userMes {
+  background-color: #fff;
+  padding: 20upx;
+}
+
+.tongtool-account-userMes .userMesItem {
+  padding: 24upx 0;
+  font-size: 26upx;
+  position: relative;
+}
+
+.tongtool-account-userMes .userMesItem .phone {
+  position: absolute;
+  width: 60upx;
+  height: 60upx;
+  border-radius: 50%;
+  background-color: #26a69a;
+  top: 10upx;
+  right: 10upx;
+}
+
+.tongtool-account-userMes .userMesItem .phone .icon {
+  color: #FFFFFF;
+  margin: 12upx;
+  font-size: 34upx;
+}
+
+.tongtool-account-userMes .appConfig {
+  padding: 24px 0 0 0;
+  font-size: 26upx;
+}
+
+.tongtool-account-userMes .appConfig .title {
+  font-size: 32upx;
+  color: #1976d2;
+}
+
+.tongtool-account-userMes .pickingSettingList {
+  padding: 24upx 0;
+  font-size: 26upx;
+}
+
+.tongtool-account-userMes .pickingSettingList .title {
+  font-size: 32upx;
+  color: #1976d2;
+}
+
+.tongtool-account-userMes .pickingSettingList .seven-grid-row {
+  margin-top: 20upx;
+}
+
+.tongtool-account-userMes .pickingSettingList .seven-grid-row .seven-grid-col {
+  line-height: 2.2;
+}
+
+.tongtool-account-userMes .pickingSettingList .pslTitle {
+  line-height: 74upx;
+}
+
+.tongtool-account-userMes .switchWrap {
+  display: flex;
+  width: 100%;
+}
+
+.tongtool-account-userMes .switchWrap .long {
+  width: 100%;
+}
+
+.tongtool-account-userMes .switchWrap .active {
+  color: #1870c8 !important;
+  background-color: #1976d2 !important;
+  border-color: #1870c8 !important;
+  color: #fff !important;
+}
+
+.tongtool-account-userMes .switchWrap .active>a:only-child {
+  color: currentColor !important;
+}
+
+.tongtool-account-userMes .switchWrap .active>a:only-child:after {
+  content: '' !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  background: transparent !important;
+}
+
+.tongtool-account-userMes .switchWrap .switchLeftButton {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  line-height: 1.6;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 10rpx 30rpx 12rpx;
+  font-size: 26rpx;
+  border-radius: 8rpx 0 0 8rpx;
+  -webkit-transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, -webkit-box-shadow 0.2s linear;
+  transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, -webkit-box-shadow 0.2s linear;
+  -o-transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, box-shadow 0.2s linear;
+  transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, box-shadow 0.2s linear;
+  transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, box-shadow 0.2s linear, -webkit-box-shadow 0.2s linear;
+  color: #515a6e;
+  background-color: #fff;
+  border-color: #dcdee2;
+}
+
+.tongtool-account-userMes .switchWrap .switchRightButton {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  line-height: 1.6;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 10rpx 30rpx 12rpx;
+  font-size: 26rpx;
+  border-radius: 0 8rpx 8rpx 0;
+  -webkit-transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, -webkit-box-shadow 0.2s linear;
+  transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, -webkit-box-shadow 0.2s linear;
+  -o-transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, box-shadow 0.2s linear;
+  transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, box-shadow 0.2s linear;
+  transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, box-shadow 0.2s linear, -webkit-box-shadow 0.2s linear;
+  color: #515a6e;
+  background-color: #fff;
+  border-color: #dcdee2;
+  margin-left: -2upx;
+}
+
+.tongtool-account-password .saveButton {
+  padding: 20upx;
+}
+
+.tongtool-workspace .warehouseHeadline {
+  background-color: #fff;
+  font-size: 28upx;
+  padding: 30upx 20upx;
+}
+
+.tongtool-workspace .warehouseHeadline .selectWarehouse {
+  padding: 10upx 20upx;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: #f6f6f6;
+  border-radius: 8upx;
+}
+
+.tongtool-workspace .warehouseHeadline .headTitle {
+  font-weight: bold;
+  line-height: 60upx;
+}
+
+.tongtool-workspace .item {
+  background-color: #fff;
+  padding: 10upx 0 30upx 0;
+}
+
+.tongtool-workspace .item .title {
+  padding: 20upx;
+}
+
+.tongtool-workspace .item .itemList .itemWrap {
+  width: 120upx;
+  margin-top: 20upx;
+  padding-bottom: 10upx;
+}
+
+.tongtool-workspace .item .itemList .itemWrap .iconWrap {
+  width: 120upx;
+  height: 120upx;
+  border-radius: 46% 42% 45% 44%;
+}
+
+.tongtool-workspace .item .itemList .itemWrap .iconfont {
+  color: #fff;
+  font-size: 50upx;
+  font-style: normal;
+}
+
+.tongtool-workspace .item .itemList .itemWrap .orange {
+  background-color: #ffb74d;
+}
+
+.tongtool-workspace .item .itemList .itemWrap .blue {
+  background-color: #4fc3f7;
+}
+
+.tongtool-workspace .item .itemList .itemWrap .tintGreen {
+  background-color: #80cbc4;
+}
+
+.tongtool-workspace .item .itemList .itemWrap .tintPink {
+  background-color: #ec407a;
+}
+
+.tongtool-workspace .item .itemList .itemWrap .lidigo {
+  background-color: #5c6bc0;
+}
+
+.tongtool-workspace .item .itemList .itemWrap .packageAuth {
+  background-color: #4caf50;
+}
+
+.tongtool-workspace .item .itemList .itemWrap .itemName {
+  margin-top: 12upx;
+  white-space: nowrap;
+}
+
+.tongtool-workspace-purchaseList .wechatFilter {
+  padding: 20upx 20upx;
+}
+
+.tongtool-workspace-purchaseList .containerWrap {
+  width: 100vw;
+  padding-bottom: 130upx;
+}
+
+.tongtool-workspace-purchaseList .containerWrap .listWrap .listItem:first-child {
+  margin: 0;
+}
+
+.tongtool-workspace-purchaseList .containerWrap .listWrap .listItem {
+  margin: 10upx 0;
+  font-size: 26upx;
+  background-color: #fff;
+}
+
+.tongtool-workspace-purchaseList .containerWrap .listWrap .listItem .subList {
+  position: relative;
+  padding: 10upx 20upx;
+  color: #424242;
+}
+
+.tongtool-workspace-purchaseList .containerWrap .listWrap .listItem .subList view {
+  padding: 4upx 0;
+}
+
+.tongtool-workspace-purchaseList .containerWrap .listWrap .listItem .subList .iconfont {
+  position: absolute;
+  right: 5%;
+  top: 40%;
+  font-size: 36upx;
+}
+
+.tongtool-workspace-purchaseList .containerWrap .listWrap .listItem .subList .purchasingStatus0 {
+  color: #f44336;
+}
+
+.tongtool-workspace-purchaseList .containerWrap .listWrap .listItem .subList .purchasingStatus1 {
+  color: #4caf50;
+}
+
+.tongtool-workspace-purchaseList .containerWrap .listWrap .listItem .subList .purchasingStatus2 {
+  color: #f44336;
+}
+
+.tongtool-workspace-purchaseList .containerWrap .listWrap .totalWrap {
+  background-color: #ffe0b2;
+  border-top: 1px solid #f44336;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 130upx;
+  font-size: 30upx;
+}
+
+.tongtool-workspace-purchaseList .containerWrap .listWrap .totalWrap .twTitle {
+  margin-top: 10upx;
+  font-size: 26upx;
+}
+
+.tongtool-workspace-purchaseDetails .containerWrap {
+  width: 100vw;
+  padding-bottom: 130upx;
+}
+
+.tongtool-workspace-purchaseDetails .containerWrap .listWrap .listItem {
+  margin: 10upx 0;
+  font-size: 26upx;
+  background-color: #fff;
+}
+
+.tongtool-workspace-purchaseDetails .containerWrap .listWrap .listItem .subList {
+  position: relative;
+  padding: 10upx 20upx;
+  color: #424242;
+}
+
+.tongtool-workspace-purchaseDetails .containerWrap .listWrap .listItem .subList .loadImg {
+  width: 120upx;
+  height: 120upx;
+}
+
+.tongtool-workspace-purchaseDetails .containerWrap .listWrap .totalWrap {
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 80upx;
+  font-size: 30upx;
+}
+
+.tongtool-workspace-purchaseDetails .containerWrap .listWrap .totalWrap .operateHistoryItem {
+  height: 80upx;
+  line-height: 80upx;
+  padding: 0 10upx;
+}
+
+.tongtool-workspace-purchaseDetails .containerWrap .listWrap .totalWrap .operateHistoryItem .redColor {
+  color: #f00;
+}
+
+.tongtool-workspace-purchaseDetails .containerWrap .listWrap .totalWrap .operateHistoryItem .iconfont {
+  top: 4upx;
+  position: relative;
+}
+
+.tongtool-workspace-purchaseDetailsLog .containerWrap {
+  width: 100vw;
+  padding-bottom: 130upx;
+}
+
+.tongtool-workspace-purchaseDetailsLog .containerWrap .listWrap .listItem {
+  font-size: 26upx;
+  padding: 20upx 0;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.tongtool-workspace-purchaseDetailsLog .containerWrap .listWrap .listItem .subList {
+  padding: 0 20upx;
+  color: #424242;
+}
+
+.tongtool-workspace-purchaseDetailsLog .containerWrap .listWrap .listItem .subList .itemStatus {
+  color: #f44336;
+}
+
+.tongtool-workspace-inventorQuery .warehouseHeadline {
+  background-color: #fff;
+  font-size: 28upx;
+  padding: 30upx 20upx;
+}
+
+.tongtool-workspace-inventorQuery .warehouseHeadline .selectWarehouse {
+  padding: 10upx 20upx;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: #f6f6f6;
+  border-radius: 8upx;
+}
+
+.tongtool-workspace-inventorQuery .warehouseHeadline .headTitle {
+  font-weight: bold;
+  line-height: 60upx;
+}
+
+.tongtool-workspace-inventorQuery .controlLine {
+  background-color: #fff;
+  padding: 20upx;
+}
+
+.tongtool-workspace-inventorQuery .scanWrap {
+  padding: 30upx 20upx;
+  background-color: #fff;
+}
+
+.tongtool-workspace-inventorQuery .scanWrap .scan {
+  color: #1976d2;
+  width: 90upx;
+  text-align: center;
+}
+
+.tongtool-workspace-inventorQuery .scanWrap .scan .scanIcon {
+  font-size: 60upx;
+}
+
+.tongtool-workspace-inventorQuery .scanWrap .scan .scanText {
+  font-size: 24upx;
+}
+
+.tongtool-workspace-inventorQuery .scanWrap .selectType {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8upx;
+  height: 80upx;
+  margin-left: 20upx;
+  width: 200upx;
+  overflow: hidden;
+}
+
+.tongtool-workspace-inventorQuery .scanWrap .selectType .icon {
+  margin-right: 15upx;
+  font-size: 20upx;
+}
+
+.tongtool-workspace-inventorQuery .scanWrap .scanInput {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin-left: 20upx;
+}
+
+.tongtool-workspace-inventorQuery .errorSquare {
+  background-color: #f00;
+  color: #fff;
+}
+
+.tongtool-workspace-inventorQuery .bottomBit {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  z-index: 999;
+}
+
+.tongtool-workspace-inventorQuery .bottomBit button {
+  width: 100%;
+  margin: 20upx;
+  background-color: #1976d2;
+}
+
+.tongtool-workspace-inventorQuery .productContainer {
+  background-color: #fff;
+  font-size: 28upx;
+  margin-top: 20upx;
+  margin-bottom: 110upx;
+  padding: 20upx 0;
+}
+
+.tongtool-workspace-inventorQuery .productContainer .product-text {
+  padding: 12upx 24upx;
+}
+
+.tongtool-workspace-inventorQuery .productContainer .product-text text {
+  margin-left: 20upx;
+}
+
+.tongtool-workspace-inventorQuery .productContainer .enbaleWarehouseList {
+  padding: 20upx 20upx 100upx 20upx;
+}
+
+.tongtool-workspace-inventorQuery .productContainer .enbaleWarehouseList .enableWarehouseItem:nth-child(odd) {
+  background-color: #f6f6f6;
+}
+
+.tongtool-workspace-inventorQuery .productContainer .enbaleWarehouseList .enableWarehouseItem .warehouseStorage {
+  padding: 20upx;
+}
+
+.tongtool-workspace-inventorQuery .productContainer .enbaleWarehouseList .enableWarehouseItem .warehouseEnableStorage {
+  padding: 0 20upx;
+}
+
+.tongtool-workspace-inventorQuery .productContainer .enbaleWarehouseList .enableWarehouseItem .mu-divider {
+  margin-top: 20upx;
+}
+
+.tongtool-workspace-pickingList .wechatFilter {
+  padding: 20upx 20upx;
+}
+
+.tongtool-workspace-pickingList .warehouseHeadline {
+  font-size: 28upx;
+  padding: 30upx 20upx;
+}
+
+.tongtool-workspace-pickingList .warehouseHeadline .selectWarehouse {
+  padding: 10upx 20upx;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: #f6f6f6;
+  border-radius: 8upx;
+}
+
+.tongtool-workspace-pickingList .warehouseHeadline .headTitle {
+  font-weight: bold;
+  line-height: 60upx;
+}
+
+.tongtool-workspace-pickingList .pickinglistWrap .mu-tab {
+  width: 50%;
+}
+
+.tongtool-workspace-pickingList .pickinglistWrap .pickinglist .pickingItem {
+  margin-bottom: 20upx;
+}
+
+.tongtool-workspace-pickingList .pickinglistWrap .pickinglist .pickingItem .pickingHead {
+  font-size: 28upx;
+  padding: 20upx;
+  background-color: #fff;
+}
+
+.tongtool-workspace-pickingList .pickinglistWrap .pickinglist .pickingItem .pickingHead .phTitle {
+  font-weight: bold;
+}
+
+.tongtool-workspace-pickingList .pickinglistWrap .pickinglist .pickingItem .pickingHead .phStatus {
+  color: #f44336;
+}
+
+.tongtool-workspace-pickingList .pickinglistWrap .pickinglist .pickingItem .pickingItemContent {
+  background-color: #fff;
+  font-size: 24upx;
+  padding: 10upx 0;
+  position: relative;
+}
+
+.tongtool-workspace-pickingList .pickinglistWrap .pickinglist .pickingItem .pickingItemContent .pItem {
+  padding: 5upx 20upx;
+}
+
+.tongtool-workspace-pickingList .pickinglistWrap .pickinglist .pickingItem .pickingItemContent .pItem .jg {
+  margin: 0 20upx;
+}
+
+.tongtool-workspace-pickingList .pickinglistWrap .pickinglist .pickingItem .pickingItemContent .goToPicking {
+  position: absolute;
+  right: 20upx;
+  top: 30%;
+  z-index: 1;
+  font-size: 30upx;
+  color: #1976d2;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.tongtool-workspace-pickingList .pickinglistWrap .pickinglist .pickingItem .pickingItemContent .goToPicking .iconfont {
+  font-size: 50upx;
+  position: relative;
+  bottom: -8upx;
+}
+
+.tongtool-workspace-scanPackage .scanWrap {
+  padding: 30upx 20upx;
+  background-color: #fff;
+}
+
+.tongtool-workspace-scanPackage .scanWrap .scan {
+  color: #1976d2;
+  width: 80upx;
+  text-align: center;
+}
+
+.tongtool-workspace-scanPackage .scanWrap .scan .scanIcon {
+  font-size: 60upx;
+}
+
+.tongtool-workspace-scanPackage .scanWrap .scan .scanText {
+  font-size: 24upx;
+}
+
+.tongtool-workspace-scanPackage .scanWrap .selectType {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8upx;
+  height: 80upx;
+  margin-left: 20upx;
+}
+
+.tongtool-workspace-scanPackage .scanWrap .selectType .material-icons {
+  margin: 14upx;
+}
+
+.tongtool-workspace-scanPackage .scanWrap .scanInput {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin-left: 20upx;
+}
+
+.tongtool-workspace-scanPackage .errorText {
+  background-color: #f00;
+  color: #fff;
+  font-size: 30upx;
+}
+
+.tongtool-workspace-scanPackage .rules {
+  font-size: 28upx;
+  color: #f00;
+}
+
+.tongtool-workspace-scanPackage .baseketList {
+  white-space: normal;
+  word-break: break-all;
+}
+
+.tongtool-workspace-scanPackage .basketContent {
+  font-size: 28upx;
+  color: #424242;
+}
+
+.tongtool-workspace-scanPackage .basketContent .redColor {
+  color: #f00;
+}
+
+.tongtool-workspace-scanPackage .bottomBit {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  z-index: 999;
+}
+
+.tongtool-workspace-scanPackage .bottomBit button {
+  width: 100%;
+  margin: 20upx;
+  background-color: #1976d2;
+}
+
+.tongtool-workspace-pickingDetails .scanWrap {
+  padding: 30upx 20upx;
+  background-color: #fff;
+}
+
+.tongtool-workspace-pickingDetails .scanWrap .scan {
+  color: #1976d2;
+  width: 80upx;
+  text-align: center;
+}
+
+.tongtool-workspace-pickingDetails .scanWrap .scan .scanIcon {
+  font-size: 60upx;
+}
+
+.tongtool-workspace-pickingDetails .scanWrap .scan .scanText {
+  font-size: 24upx;
+}
+
+.tongtool-workspace-pickingDetails .scanWrap .selectType {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8upx;
+  height: 80upx;
+  margin-left: 20upx;
+}
+
+.tongtool-workspace-pickingDetails .scanWrap .selectType .material-icons {
+  margin: 14upx;
+}
+
+.tongtool-workspace-pickingDetails .scanWrap .scanInput {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin-left: 20upx;
+}
+
+.tongtool-workspace-pickingDetails .scanWrap .headEndLine {
+  font-size: 24upx;
+  color: #1976d2;
+  margin-top: 10upx;
+}
+
+.tongtool-workspace-pickingDetails .listContent {
+  background-color: #fff;
+  font-size: 26upx;
+  padding-bottom: 100upx;
+}
+
+.tongtool-workspace-pickingDetails .listContent .listItem {
+  position: relative;
+  padding: 20upx;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.tongtool-workspace-pickingDetails .listContent .listItem .item {
+  margin-top: 10upx;
+}
+
+.tongtool-workspace-pickingDetails .listContent .listItem .item text {
+  margin-left: 10upx;
+}
+
+.tongtool-workspace-pickingDetails .listContent .alreadyPicking {
+  position: absolute;
+  right: 0.5rem;
+  top: 40%;
+  z-index: 1;
+  color: #4caf50;
+}
+
+.tongtool-workspace-pickingDetails .listContent .alreadyPicking .icon {
+  color: #1976d2;
+}
+
+.tongtool-workspace-pickingDetails .bottomBit {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  z-index: 999;
+}
+
+.tongtool-workspace-pickingDetails .bottomBit .col {
+  padding: 10upx 0;
+}
+
+.tongtool-workspace-pickingDetails .bottomBit button {
+  width: 90%;
+}
+
+.tongtool-workspace-pickingDetails .bottomBit .yellow {
+  background-color: #ff9500;
+  color: #fff;
+}
+
+.tongtool-workspace-pickingDetails .bottomBit .primary {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+.tongtool-workspace-productPickingDetails .headTitle {
+  font-size: 32upx;
+}
+
+.tongtool-workspace-productPickingDetails .headTitle text text {
+  margin-right: 10upx;
+  color: #424242;
+}
+
+.tongtool-workspace-productPickingDetails .skuName {
+  font-size: 24upx;
+  line-height: 46upx;
+}
+
+.tongtool-workspace-productPickingDetails .skuName .skuNameItem {
+  flex: 0.9;
+}
+
+.tongtool-workspace-productPickingDetails .skuName .skuNameItem text {
+  word-break: break-all;
+  white-space: normal;
+}
+
+.tongtool-workspace-productPickingDetails .cargospaceWrap {
+  font-size: 24upx;
+}
+
+.tongtool-workspace-productPickingDetails .cargospaceWrap .cargospaceTitle {
+  line-height: 50upx;
+}
+
+.tongtool-workspace-productPickingDetails .cargospaceWrap .scanCargospace {
+  margin-top: 20upx;
+}
+
+.tongtool-workspace-productPickingDetails .scanWrap {
+  padding: 30upx 20upx;
+  background-color: #fff;
+}
+
+.tongtool-workspace-productPickingDetails .scanWrap .switch {
+  margin-bottom: 20upx;
+}
+
+.tongtool-workspace-productPickingDetails .scanWrap .scan {
+  color: #1976d2;
+  width: 80upx;
+  text-align: center;
+}
+
+.tongtool-workspace-productPickingDetails .scanWrap .scan .scanIcon {
+  font-size: 60upx;
+}
+
+.tongtool-workspace-productPickingDetails .scanWrap .scan .scanText {
+  font-size: 24upx;
+}
+
+.tongtool-workspace-productPickingDetails .scanWrap .selectType {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8upx;
+  height: 80upx;
+  margin-left: 20upx;
+}
+
+.tongtool-workspace-productPickingDetails .scanWrap .selectType .material-icons {
+  margin: 14upx;
+}
+
+.tongtool-workspace-productPickingDetails .scanWrap .scanInput {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin-left: 20upx;
+}
+
+.tongtool-workspace-productPickingDetails .pickingStatus {
+  font-size: 30upx;
+}
+
+.tongtool-workspace-productPickingDetails .pickingStatus text {
+  color: #f44336;
+}
+
+.tongtool-workspace-productPickingDetails .modeStatus button {
+  background-color: #1976d2;
+}
+
+.tongtool-workspace-productPickingDetails .picArea {
+  padding-bottom: 100upx;
+}
+
+.tongtool-workspace-productPickingDetails .bottomBit {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.tongtool-workspace-productPickingDetails .bottomBit .col {
+  padding: 10upx 0;
+}
+
+.tongtool-workspace-productPickingDetails .bottomBit button {
+  width: 90%;
+}
+
+.tongtool-workspace-productPickingDetails .bottomBit .yellow {
+  background-color: #ff9500;
+  color: #fff;
+}
+
+.tongtool-workspace-productPickingDetails .bottomBit .primary {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .warehouseHeadline {
+  font-size: 28upx;
+  padding: 30upx 20upx;
+  background-color: #fff;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .warehouseHeadline .selectWarehouse {
+  padding: 10upx 20upx;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: #f6f6f6;
+  border-radius: 8upx;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .warehouseHeadline .headTitle {
+  font-weight: bold;
+  line-height: 60upx;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .scanWrap {
+  padding: 30upx 20upx;
+  background-color: #fff;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .scanWrap .scan {
+  color: #1976d2;
+  width: 80upx;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .scanWrap .scan .scanIcon {
+  font-size: 60upx;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .scanWrap .scan .scanText {
+  font-size: 24upx;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .scanWrap .selectType {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8upx;
+  height: 80upx;
+  margin-left: 20upx;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .scanWrap .selectType .material-icons {
+  margin: 14upx;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .scanWrap .scanInput {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin-left: 20upx;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .scanWrap .scanInputTwo {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.tongtool-workspace-cargoSpaceTransfer .scanWrap .jg {
+  text-align: center;
+  line-height: 2.1;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .scanWrap .headEndLine {
+  font-size: 30upx;
+  padding: 40upx 24upx;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .scanWrap .headEndLine .changeNum {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin-left: 20upx;
+  min-width: 70upx;
+  flex-shrink: 1;
+  flex: 0.4;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .scanWrap .headEndLine view {
+  margin-right: 80upx;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .scanWrap .headEndLine view .originCargoSpace {
+  color: #424242;
+  padding-left: 10upx;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .errorText {
+  background-color: #f00;
+  color: #fff;
+  font-size: 30upx;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .pickingListCode {
+  font-size: 38upx;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .supplierName {
+  font-size: 26upx;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .controlLine {
+  background-color: #fff;
+  padding: 20upx;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .skuDetails {
+  font-size: 24upx;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .skuDetails view {
+  margin-top: 20upx;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .inWarehouseList {
+  background-color: #fff;
+  width: 100%;
+  padding-bottom: 100upx;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .inWarehouseList .otherCargospaceMes {
+  font-size: 28upx;
+  padding: 10upx;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .inWarehouseList .inWarehouseItem {
+  padding: 10upx 20upx;
+  font-size: 26upx;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .inWarehouseList .inWarehouseItem:nth-child(even) {
+  background-color: #f6f6f6;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .bottomBit {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  z-index: 999;
+}
+
+.tongtool-workspace-cargoSpaceTransfer .bottomBit button {
+  width: 100%;
+  margin: 20upx;
+  background-color: #1976d2;
+}
+
+.tongtool-workspace-inventorQueryVerification .wechatFilter {
+  padding: 20upx 20upx;
+}
+
+.tongtool-workspace-inventorQueryVerification .wechatFilter .wechatSort {
+  margin-right: 20upx;
+}
+
+.tongtool-workspace-inventorQueryVerification .headSearch button {
+  background-color: #1976d2;
+  height: 80upx;
+  line-height: 80upx;
+  margin-top: 20upx;
+  color: #fff;
+}
+
+.tongtool-workspace-inventorQueryVerification .warehouseHeadline {
+  background-color: #fff;
+  font-size: 28upx;
+  padding: 30upx 20upx;
+}
+
+.tongtool-workspace-inventorQueryVerification .warehouseHeadline .selectWarehouse {
+  padding: 10upx 20upx;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: #f6f6f6;
+  border-radius: 8upx;
+}
+
+.tongtool-workspace-inventorQueryVerification .warehouseHeadline .headTitle {
+  font-weight: bold;
+  line-height: 60upx;
+}
+
+.tongtool-workspace-inventorQueryVerification .scanWrap {
+  padding: 30upx 20upx;
+  background-color: #fff;
+}
+
+.tongtool-workspace-inventorQueryVerification .scanWrap .scan {
+  color: #1976d2;
+  width: 80upx;
+  text-align: center;
+}
+
+.tongtool-workspace-inventorQueryVerification .scanWrap .scan .scanIcon {
+  font-size: 60upx;
+}
+
+.tongtool-workspace-inventorQueryVerification .scanWrap .scan .scanText {
+  font-size: 24upx;
+}
+
+.tongtool-workspace-inventorQueryVerification .scanWrap .selectType {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8upx;
+  height: 80upx;
+  margin-left: 20upx;
+}
+
+.tongtool-workspace-inventorQueryVerification .scanWrap .selectType .iconfont {
+  margin: 14upx;
+}
+
+.tongtool-workspace-inventorQueryVerification .scanWrap .scanInput {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin-left: 20upx;
+}
+
+.tongtool-workspace-inventorQueryVerification .containerWrap {
+  width: 100vw;
+  padding-bottom: 130upx;
+}
+
+.tongtool-workspace-inventorQueryVerification .containerWrap .listWrap .listItem:first-child {
+  margin: 0;
+}
+
+.tongtool-workspace-inventorQueryVerification .containerWrap .listWrap .listItem {
+  margin: 10upx 0;
+  font-size: 26upx;
+  background-color: #fff;
+}
+
+.tongtool-workspace-inventorQueryVerification .containerWrap .listWrap .listItem .subList {
+  position: relative;
+  padding: 10upx 20upx;
+  color: #424242;
+}
+
+.tongtool-workspace-inventorQueryVerification .containerWrap .listWrap .listItem .subList .positionView {
+  position: absolute;
+  right: 3%;
+  top: 30%;
+  font-size: 56upx;
+}
+
+.tongtool-workspace-inventorQueryVerification .bottomBit {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  z-index: 999;
+}
+
+.tongtool-workspace-inventorQueryVerification .bottomBit .col {
+  padding: 10upx 0;
+}
+
+.tongtool-workspace-inventorQueryVerification .bottomBit button {
+  width: 90%;
+}
+
+.tongtool-workspace-inventorQueryVerification .bottomBit .yellow {
+  background-color: #ff9500;
+  color: #fff;
+}
+
+.tongtool-workspace-inventorQueryVerification .bottomBit .yellow .iconfont {
+  position: relative;
+  top: 4upx;
+  line-height: 0;
+  font-size: 34upx;
+  margin-right: 10upx;
+}
+
+.tongtool-workspace-inventorQueryVerification .bottomBit .primary {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+.tongtool-workspace-inventorQueryVerification .bottomBit .primary .iconfont {
+  position: relative;
+  top: 4upx;
+  line-height: 0;
+  font-size: 34upx;
+  margin-right: 10upx;
+}
+
+.tongtool-workspace-purchaseRandomResult .mu-tab {
+  width: 50%;
+}
+
+.tongtool-workspace-purchaseRandomResult .skuItem {
+  background-color: #fff;
+  font-size: 28upx;
+}
+
+.tongtool-workspace-purchaseRandomResult .bottomBit {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  z-index: 999;
+}
+
+.tongtool-workspace-purchaseRandomResult .bottomBit .col {
+  padding: 10upx 0;
+}
+
+.tongtool-workspace-purchaseRandomResult .bottomBit button {
+  width: 90%;
+}
+
+.tongtool-workspace-purchaseRandomResult .bottomBit .green {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.tongtool-workspace-purchaseRandomResult .bottomBit .primary {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+.tongtool-workspace-inventoryVerificationDetails-randomResult {
+  content: '';
+}
+
+.tongtool-workspace-inventoryVerificationDetails-randomResult .bgCur {
+  background-color: #4fc3f7 !important;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .headLine {
+  background-color: #fff;
+  font-size: 28upx;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .scanWrap {
+  padding: 30upx 20upx;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .scanWrap .model {
+  width: 230upx;
+  padding: 0 20upx;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .scanWrap .scan {
+  color: #1976d2;
+  width: 80upx;
+  text-align: center;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .scanWrap .scan .scanIcon {
+  font-size: 60upx;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .scanWrap .scan .scanText {
+  font-size: 24upx;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .scanWrap .selectType {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8upx;
+  height: 80upx;
+  margin-left: 20upx;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .scanWrap .selectType .material-icons {
+  margin: 14upx;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .scanWrap .scanInput {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin-left: 20upx;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .scanWrap .scanInputTwo {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.tongtool-workspace-inventoryVerificationDetails .scanWrap .jg {
+  text-align: center;
+  line-height: 2.1;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .containerWrap {
+  width: 100vw;
+  padding-bottom: 130upx;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .containerWrap .listWrap .listItem:first-child {
+  margin: 0;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .containerWrap .listWrap .listItem {
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  margin: 10upx 0;
+  font-size: 26upx;
+  background-color: #fff;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .containerWrap .listWrap .listItem .changeNum {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin-left: 20upx;
+  min-width: 70upx;
+  max-width: 240upx;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .containerWrap .listWrap .listItem .row {
+  margin-top: 10upx;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .containerWrap .listWrap .listItem .arrow {
+  position: absolute;
+  right: 0.5rem;
+  top: 30%;
+  z-index: 1;
+  font-size: 60upx;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .bottomBit {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  z-index: 999;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .bottomBit button {
+  width: 100%;
+  margin: 20upx;
+  background-color: #1976d2;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .bottomBit button .icon {
+  font-size: 30upx;
+  line-height: 1.1;
+  position: relative;
+  margin-right: 10upx;
+  top: 1px;
+}
+
+.tongtool-workspace-inventoryVerificationDetails .bottomBit .yellow {
+  background-color: #ff9500;
+  color: #fff;
+}
+
+.tongtool-workspace-inventoryDetails .mu-tab {
+  width: 50%;
+}
+
+.check-new-order .mu-tab {
+  width: 50%;
+}
+
+.tongtool-workspace-inventoryDetails .skuDetails {
+  font-size: 36upx;
+}
+
+.tongtool-workspace-checkPurchaseOrder .scanWrap {
+  margin-top: 30upx;
+}
+
+.tongtool-workspace-checkPurchaseOrder .scanWrap .scan {
+  color: #1976d2;
+  width: 90upx;
+  text-align: center;
+}
+
+.tongtool-workspace-checkPurchaseOrder .scanWrap .scan .scanIcon {
+  font-size: 60upx;
+}
+
+.tongtool-workspace-checkPurchaseOrder .scanWrap .scan .scanText {
+  font-size: 24upx;
+}
+
+.tongtool-workspace-checkPurchaseOrder .bottomBit {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  z-index: 999;
+}
+
+.tongtool-workspace-checkPurchaseOrder .bottomBit button {
+  width: 100%;
+  margin: 20upx;
+  background-color: #1976d2;
+}
+
+.tongtool-workspace-checkPurchaseOrder .bottomBit button .icon {
+  font-size: 30upx;
+  line-height: 1.1;
+  position: relative;
+  margin-right: 10upx;
+  top: 1px;
+}
+
+.tongtool-workspace-checkPurchaseOrder .bottomBit .green {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.tongtool-workspace-randomList .headLine {
+  background-color: #fff;
+  font-size: 28upx;
+}
+
+.tongtool-workspace-randomList .containerWrap {
+  width: 100vw;
+  padding-bottom: 130upx;
+}
+
+.tongtool-workspace-randomList .containerWrap .listWrap .listItem:first-child {
+  margin: 0;
+}
+
+.tongtool-workspace-randomList .containerWrap .listWrap .listItem {
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  margin: 10upx 0;
+  font-size: 26upx;
+  background-color: #fff;
+}
+
+.tongtool-workspace-randomList .containerWrap .listWrap .listItem .row {
+  margin-top: 10upx;
+}
+
+.tongtool-workspace-randomList .containerWrap .listWrap .listItem .arrow {
+  position: absolute;
+  right: 0.5rem;
+  top: 30%;
+  z-index: 1;
+  font-size: 60upx;
+}
+
+.tongtool-workspace-randomList .bottomBit {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  z-index: 999;
+}
+
+.tongtool-workspace-randomList .bottomBit button {
+  width: 100%;
+  margin: 20upx;
+  background-color: #1976d2;
+}
+
+.tongtool-workspace-randomList .bottomBit button .icon {
+  font-size: 30upx;
+  line-height: 1.1;
+  position: relative;
+  margin-right: 10upx;
+  top: 1px;
+}
+
+.tongtool-workspace-randomList .bottomBit .green {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.tongtool-workspace-randomList .bottomBit .yellow {
+  background-color: #ff9500;
+  color: #fff;
+}
+
+.tongtool-workspace-selectStorage .listItem {
+  font-size: 28upx;
+  background-color: #fff;
+}
+
+.tongtool-workspace-selectStorage .listItem .item {
+  padding: 20upx;
+}
+
+.tongtool-workspace-selectStorage .listItem .item .leftItem .keepPicking {
+  margin-top: 20upx;
+}
+
+.tongtool-workspace-selectStorage .listItem .item .leftItem .keepPicking view {
+  margin-right: 40upx;
+}
+
+.tongtool-workspace-selectStorage .listItem .mu-divider {
+  margin: 20upx 0;
+}
+
+.tongtool-workspace-packageVerify .errorText {
+  margin: 0 10upx;
+  color: #f00;
+}
+
+.tongtool-workspace-packageVerify .successText {
+  margin: 0 10upx;
+  color: #4caf50;
+}
+
+.tongtool-workspace-packageVerify .scanWrap {
+  padding: 30upx 20upx;
+  background-color: #fff;
+}
+
+.tongtool-workspace-packageVerify .scanWrap .scan {
+  color: #1976d2;
+  width: 80upx;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.tongtool-workspace-packageVerify .scanWrap .scan .scanIcon {
+  font-size: 60upx;
+}
+
+.tongtool-workspace-packageVerify .scanWrap .scan .scanText {
+  font-size: 24upx;
+}
+
+.tongtool-workspace-packageVerify .scanWrap .selectType {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8upx;
+  height: 80upx;
+  margin-left: 20upx;
+}
+
+.tongtool-workspace-packageVerify .scanWrap .selectType .material-icons {
+  margin: 14upx;
+}
+
+.tongtool-workspace-packageVerify .scanWrap .scanInput {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin-left: 20upx;
+}
+
+.tongtool-workspace-packageVerify .scanWrap .scanInputTwo {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.tongtool-workspace-packageVerify .scanWrap .jg {
+  text-align: center;
+  line-height: 2.1;
+}
+
+.tongtool-workspace-packageVerify .scanWrap .headEndLine {
+  font-size: 30upx;
+  padding: 40upx 24upx;
+}
+
+.tongtool-workspace-packageVerify .scanWrap .headEndLine .changeNum {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin-left: 20upx;
+  min-width: 70upx;
+  flex-shrink: 1;
+  flex: 0.4;
+}
+
+.tongtool-workspace-packageVerify .scanWrap .headEndLine view {
+  margin-right: 80upx;
+}
+
+.tongtool-workspace-packageVerify .scanWrap .headEndLine view .originCargoSpace {
+  color: #424242;
+  padding-left: 10upx;
+}
+
+.tongtool-workspace-packageVerify .packageList {
+  border-top: 20rpx solid #f6f6f6;
+  padding-bottom: 100upx;
+}
+
+.tongtool-workspace-packageVerify .packageList .packageItem {
+  padding: 10upx 20upx;
+  background-color: #fff;
+  border-bottom: 10upx solid #f6f6f6;
+}
+
+.tongtool-workspace-packageVerify .packageList .packageItem .imgItem {
+  width: 80%;
+  max-height: 400upx;
+  overflow: hidden;
+}
+
+.tongtool-workspace-packageVerify .packageList .packageItem .imgItem image {
+  width: 100%;
+}
+
+.tongtool-workspace-packageVerify .packageList .packageItem .item {
+  margin: 20upx 0;
+  font-size: 26upx;
+}
+
+.tongtool-workspace-packageVerify .packageList .packageItem .item .itemTitle {
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.tongtool-workspace-packageVerify .packageList .packageItem .item .scanNumInput {
+  border: 1px solid #e1e1e1;
+  margin-left: 10upx;
+  width: 200upx;
+}
+
+.tongtool-workspace-packageVerify .packageList .packageItem .item .checkboxItem {
+  margin-left: 20upx;
+}
+
+.tongtool-workspace-packageVerify .bottomBit {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  z-index: 999;
+}
+
+.tongtool-workspace-packageVerify .bottomBit button {
+  width: 100%;
+  margin: 20upx;
+  background-color: #1976d2;
+}
+
+.tongtool-newWorkspace-goodsAllocation .scanWrap {
+  padding: 30upx 20upx;
+  background-color: #fff;
+  height: 88upx;
+}
+
+.tongtool-newWorkspace-goodsAllocation .scanWrap .scan {
+  color: #1976d2;
+  width: 80upx;
+  text-align: center;
+}
+
+.tongtool-newWorkspace-goodsAllocation .scanWrap .scan .scanIcon {
+  font-size: 60upx;
+}
+
+.tongtool-newWorkspace-goodsAllocation .scanWrap .scan .scanText {
+  font-size: 24upx;
+}
+
+.tongtool-newWorkspace-goodsAllocation .scanWrap .selectType {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8upx;
+  height: 80upx;
+  margin-left: 20upx;
+}
+
+.tongtool-newWorkspace-goodsAllocation .scanWrap .selectType .material-icons {
+  margin: 14upx;
+}
+
+.tongtool-newWorkspace-goodsAllocation .scanWrap .scanInput {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin-left: 20upx;
+}
+
+.tongtool-newWorkspace-newReceiving .scanWrap {
+  padding: 30upx 20upx;
+  background-color: #fff;
+  height: 88upx;
+}
+
+.tongtool-newWorkspace-newReceiving .scanWrap .scan {
+  color: #1976d2;
+  width: 80upx;
+  text-align: center;
+}
+
+.tongtool-newWorkspace-newReceiving .scanWrap .scan .scanIcon {
+  font-size: 60upx;
+}
+
+.tongtool-newWorkspace-newReceiving .scanWrap .scan .scanText {
+  font-size: 24upx;
+}
+
+.tongtool-newWorkspace-newReceiving .scanWrap .selectType {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8upx;
+  height: 80upx;
+  margin-left: 20upx;
+}
+
+.tongtool-newWorkspace-newReceiving .scanWrap .selectType .material-icons {
+  margin: 14upx;
+}
+
+.tongtool-newWorkspace-newReceiving .scanWrap .scanInput {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin-left: 20upx;
+}
+
+.tongtool-newWorkspace-newReceiving .head {
+  background-color: #fff;
+  height: 100upx;
+}
+
+.tongtool-newWorkspace-newReceiving .head .purchasingAndStorage .pasTitle {
+  margin-right: 20upx;
+}
+
+.tongtool-newWorkspace-newReceiving .head .purchasingAndStorage .uni-tag {
+  margin-right: 10upx;
+}
+
+.tongtool-newWorkspace-newReceiving .scanSkuLine {
+  background-color: #fff;
+  height: 126upx;
+}
+
+.tongtool-newWorkspace-newReceiving .scanSkuLine .scanInput {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  width: 400upx;
+}
+
+.tongtool-newWorkspace-newReceiving .scanSkuLine .model {
+  width: 230upx;
+  padding: 0 20upx;
+}
+
+.tongtool-newWorkspace-newReceiving .goodsList {
+  background-color: #fff;
+}
+
+.tongtool-newWorkspace-newReceiving .goodsList .receivingItem {
+  padding: 20upx;
+  font-size: 26upx;
+}
+
+.tongtool-newWorkspace-newReceiving .goodsList .receivingItem .leftItem {
+  width: 60%;
+}
+
+.tongtool-newWorkspace-newReceiving .goodsList .receivingItem .leftItem .leftText {
+  word-break: break-all;
+}
+
+.tongtool-newWorkspace-newReceiving .goodsList .receivingItem .leftItem .leftTitle {
+  width: 200upx;
+  flex-shrink: 0;
+}
+
+.tongtool-newWorkspace-newReceiving .goodsList .receivingItem .leftItem .d-flex {
+  margin-top: 10upx;
+}
+
+.tongtool-newWorkspace-newReceiving .goodsList .receivingItem .rightItem .thisReceivingNum {
+  margin-bottom: 20upx;
+  color: #4caf50;
+}
+
+.tongtool-newWorkspace-newReceiving .goodsList .receivingItem .rightItem .receivingNum {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  width: 180upx;
+  padding: 10upx 20upx;
+}
+
+.tongtool-newWorkspace-newReceiving .bottomBit {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  z-index: 999;
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  height: 286upx;
+}
+
+.tongtool-newWorkspace-newReceiving .bottomBit .doubBit .bottomButton {
+  margin: 0 5upx;
+  width: 100%;
+}
+
+.tongtool-newWorkspace-newReceiving .bottomBit .selectGoodsWarehouse {
+  padding: 20upx;
+}
+
+.tongtool-newWorkspace-newReceiving .bottomBit .selectGoodsWarehouse .inputWrap {
+  width: 340upx;
+}
+
+.tongtool-newWorkspace-newReceiving .bottomBit .selectGoodsWarehouse .inputWrap .scanInput {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.tongtool-newWorkspace-newReceiving .bottomBit .selectType {
+  padding: 0 20upx;
+}
+
+.tongtool-newWorkspace-qualityTestingList .scanWrap {
+  padding: 30upx 20upx;
+  background-color: #fff;
+  height: 88upx;
+}
+
+.tongtool-newWorkspace-qualityTestingList .scanWrap .scan {
+  color: #1976d2;
+  width: 80upx;
+  text-align: center;
+}
+
+.tongtool-newWorkspace-qualityTestingList .scanWrap .scan .scanIcon {
+  font-size: 60upx;
+}
+
+.tongtool-newWorkspace-qualityTestingList .scanWrap .scan .scanText {
+  font-size: 24upx;
+}
+
+.tongtool-newWorkspace-qualityTestingList .scanWrap .selectType {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8upx;
+  height: 80upx;
+  margin-left: 20upx;
+}
+
+.tongtool-newWorkspace-qualityTestingList .scanWrap .selectType .material-icons {
+  margin: 14upx;
+}
+
+.tongtool-newWorkspace-qualityTestingList .scanWrap .scanInput {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin-left: 20upx;
+}
+
+.tongtool-newWorkspace-qualityTestingList .filter {
+  background-color: #fff;
+}
+
+.tongtool-newWorkspace-qualityTestingList .qualityList {
+  font-size: 28upx;
+  background-color: #fff;
+  padding-bottom: 190upx;
+}
+
+.tongtool-newWorkspace-qualityTestingList .qualityList .qulityTitle {
+  background-color: #e7e7e7;
+  padding: 10upx 20upx;
+  font-size: 34upx;
+}
+
+.tongtool-newWorkspace-qualityTestingList .qualityList .bottomBit {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  z-index: 999;
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.tongtool-newWorkspace-qualityTestingList .qualityList .qulityItemList .qulityItem {
+  padding: 20upx;
+  border-bottom: 1upx solid #e1e1e1;
+}
+
+.tongtool-newWorkspace-qualityTestingList .qualityList .qulityItemList .qulityItem .rightItem {
+  margin-left: 20upx;
+  flex-grow: 1;
+}
+
+.tongtool-newWorkspace-qualityTestingList .qualityList .qulityItemList .qulityItem .rightItem .smallItem {
+  margin-top: 10upx;
+}
+
+.tongtool-newWorkspace-qualityTestingList .qualityList .qulityItemList .qulityItem .rightItem .smallItem .greenColor {
+  color: #4caf50;
+}
+
+.tongtool-newWorkspace-qualityTestingList .qualityList .qulityItemList .qulityItem .rightItem .smallItem .uni-input {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  width: 80upx;
+  height: 40upx;
+  padding: 0 10upx;
+  margin-left: 10upx;
+  flex: 0.8;
+}
+
+.tongtool-newWorkspace-qualityTestingList .bottomBit {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  z-index: 999;
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.tongtool-newWorkspace-qualityTestingList .bottomBit .doubBit .seven-btn {
+  margin: 0 5upx;
+}
+
+.tongtool-newWorkspace-qualityTestingDetails .swiperWrap {
+  height: 320upx;
+  background-color: #fff;
+  position: relative;
+}
+
+.tongtool-newWorkspace-qualityTestingDetails .scrollContainer .wrapItem {
+  background-color: #fff;
+  border-radius: 8upx;
+  margin: 26upx;
+  font-size: 28upx;
+  padding: 20upx;
+}
+
+.tongtool-newWorkspace-qualityTestingDetails .scrollContainer .wrapItem .item {
+  margin-bottom: 20upx;
+}
+
+.tongtool-newWorkspace-qualityTestingDetails .scrollContainer .wrapItem .wrapTitle {
+  padding-bottom: 20upx;
+}
+
+.tongtool-newWorkspace-qualityTestingDetails .scrollContainer .wrapItem .mu-divider {
+  margin-bottom: 20upx;
+}
+
+.tongtool-newWorkspace-qualityTestingDetails .scrollContainer .wrapItem .wrapContainer .d-flex {
+  margin-top: 10upx;
+}
+
+.tongtool-newWorkspace-qualityTestingDetails .scrollContainer .wrapItem .itemTitle {
+  font-weight: bold;
+  font-size: 30upx;
+}
+
+.tongtool-newWorkspace-qualityTestingDetails .scrollContainer .wrapItem image,
+.tongtool-newWorkspace-qualityTestingDetails .scrollContainer .wrapItem .uploadButton {
+  margin: 10upx;
+}
+
+.tongtool-newWorkspace-qualityTestingDetails .scrollContainer .wrapItem .uploadButton {
+  background-color: #f7f7f7;
+  width: 160upx;
+  height: 160upx;
+}
+
+.tongtool-newWorkspace-qualityTestingDetails .bottomBit {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  z-index: 999;
+  background-color: #1976d2;
+  border-top: 1px solid #fff;
+  height: 340upx;
+  color: #fff;
+}
+
+.tongtool-newWorkspace-qualityTestingDetails .bottomBit .buttonWrap {
+  background-color: #fff;
+}
+
+.tongtool-newWorkspace-qualityTestingDetails .bottomBit .buttonWrap .smallUploadButton {
+  margin: 10upx 20upx;
+}
+
+.tongtool-newWorkspace-qualityTestingDetails .bottomBit .numInputWrap .smallNumInput {
+  color: #424242 !important;
+}
+
+.tongtool-newWorkspace-qualityTestingDetails .bottomBit .numInputWrap .text {
+  flex-shrink: 0;
+}
+
+.tongtool-newWorkspace-qualityTestingDetails .bottomBit .numInputWrap .smallNumInput {
+  width: 150upx;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  height: 50upx;
+  flex-shrink: 0;
+}
+
+.tongtool-newWorkspace-qualityTestingDetails .bottomBit .bottomWrap {
+  padding: 20upx;
+  font-size: 32upx;
+}
+
+.tongtool-newWorkspace-putaway {
+  background-color: #fff;
+}
+
+.tongtool-newWorkspace-putaway .scanWrap {
+  padding: 30upx 20upx;
+  background-color: #fff;
+}
+
+.tongtool-newWorkspace-putaway .scanWrap .scan {
+  color: #1976d2;
+  width: 80upx;
+  text-align: center;
+}
+
+.tongtool-newWorkspace-putaway .scanWrap .scan .scanIcon {
+  font-size: 60upx;
+}
+
+.tongtool-newWorkspace-putaway .scanWrap .scan .scanText {
+  font-size: 24upx;
+}
+
+.tongtool-newWorkspace-putaway .scanWrap .selectType {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8upx;
+  height: 80upx;
+  margin-left: 20upx;
+}
+
+.tongtool-newWorkspace-putaway .scanWrap .selectType .material-icons {
+  margin: 14upx;
+}
+
+.tongtool-newWorkspace-putaway .scanWrap .scanInput {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin-left: 20upx;
+}
+
+.tongtool-newWorkspace-putaway .scanWrap .scanInputTwo {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.tongtool-newWorkspace-putaway .scanWrap .jg {
+  text-align: center;
+  line-height: 2.1;
+}
+
+.tongtool-newWorkspace-putaway .scanWrap .headEndLine {
+  font-size: 30upx;
+  padding: 40upx 24upx;
+}
+
+.tongtool-newWorkspace-putaway .scanWrap .headEndLine view {
+  margin-right: 80upx;
+}
+
+.tongtool-newWorkspace-putaway .scanWrap .headEndLine view .originCargoSpace {
+  color: #424242;
+  padding-left: 10upx;
+}
+
+.tongtool-newWorkspace-putaway .errorText {
+  background-color: #f00;
+  color: #fff;
+  font-size: 30upx;
+}
+
+.tongtool-newWorkspace-putaway .pickingListCode {
+  font-size: 38upx;
+}
+
+.tongtool-newWorkspace-putaway .supplierName {
+  font-size: 26upx;
+}
+
+.tongtool-newWorkspace-putaway .controlLine {
+  background-color: #fff;
+  padding: 20upx;
+}
+
+.tongtool-newWorkspace-putaway .controlLine text {
+  font-size: 30upx;
+  margin-right: 20upx;
+}
+
+.tongtool-newWorkspace-putaway .skuDetails {
+  font-size: 24upx;
+}
+
+.tongtool-newWorkspace-putaway .skuDetails view {
+  margin-top: 20upx;
+}
+
+.tongtool-newWorkspace-putaway .subTitle {
+  font-size: 28upx;
+  font-weight: bold;
+  padding: 10upx 20upx;
+}
+
+.tongtool-newWorkspace-putaway .subTitle .square {
+  width: 6upx;
+  height: 24upx;
+  margin-right: 24upx;
+  background-color: #1976d2;
+}
+
+.tongtool-newWorkspace-putaway .subContainer {
+  font-size: 28upx;
+  padding: 10upx 40upx 460upx 40upx;
+}
+
+.tongtool-newWorkspace-putaway .subContainer .subMarginTop {
+  margin-top: 10upx;
+}
+
+.tongtool-newWorkspace-putaway .subContainer .circle {
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 50%;
+  width: 50upx;
+  height: 50upx;
+}
+
+.tongtool-newWorkspace-putaway .subContainer .redBgColor {
+  background-color: #f00 !important;
+}
+
+.tongtool-newWorkspace-putaway .storageLocation {
+  padding: 10upx 40upx 10upx 40upx;
+}
+
+.tongtool-newWorkspace-putaway .storageLocation .slItem {
+  text-align: center;
+  margin-top: 20upx;
+  margin-right: 30upx;
+}
+
+.tongtool-newWorkspace-putaway .storageLocation .slItem text {
+  font-size: 26upx;
+  display: block;
+}
+
+.tongtool-newWorkspace-putaway .bottomBit {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  z-index: 999;
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.halfButtonBit {
+  margin: 0 5px;
+  width: 100%;
+  font-size: 24upx;
+}
+
+.fullButton {
+  margin: 0 5px;
+  width: 100%;
+  font-size: 24upx;
+}
+
+.themeInput {
+  border: 1px solid #0F4257 !important;
+  font-size: 16px;
+}
+
+.themeInput:hover {
+  border: 1px solid #FE007F !important;
+}
+
+.themeInputDark {
+  border: 1px solid #0F4257 !important;
+  font-size: 16px;
+}
